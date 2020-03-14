@@ -1,0 +1,2256 @@
+@-moz-document url-prefix("https://www.facebook.com/") {
+    ._2s1x ._2s1y {
+        background-color: #292929;
+        border-bottom: #292929;
+        color: #d6d6d6;
+    }
+    ._5vb_, ._5vb_ #contentCol {
+        background-color: #1f1f1f;
+    }
+    ._bui ._5afe {
+        color: #c7c7c7;
+    }
+    ._3m75 .sideNavItem ._5afe::after {
+        background-color: #292929;
+        border: 1px solid #292929;
+    }
+    ._3m75 .selectedItem ._55yu>a, ._3m75 .sideNavItem:hover ._55yu>a, ._3m75 .selectedItem .uiSideNavEditButton a, ._3m75 .sideNavItem:hover .uiSideNavEditButton a {
+        background-color: #292929;
+        border-color: #292929;
+    }
+    ._55y4 .sectionDragHandle {
+        color: #e4e4e4;
+    
+    }
+    a {
+        color: #c3c3c3;
+    }
+    ._2s1x ._2s24::before {
+        background: rgb(119, 119, 119);
+    }
+    ._4d1i ._59fc {
+        filter: invert(100%);
+    }
+    ._5lxt {
+        filter: invert(100%);
+    }
+    ._3nzl a.jewelButton:hover ._2n_9, ._3nzl a.jewelButton:focus ._2n_9 {
+        filter: invert(100%);
+    }
+    ._4962 a.jewelButton, ._4962 a.jewelButton:active, ._4962 a.jewelButton:focus, ._4962 a.jewelButton:hover {
+        filter: invert(100%);
+    }
+    ._558b ._54ng {
+        background-color: #333333;
+        border: 1px solid rgb(51, 51, 51);
+    }
+    ._9jo li.navSubmenu a {
+        color: #d6d6d6;
+    }
+    ._558b ._54nc {
+        border: solid #333333;
+    }
+    ._558b ._54ak {
+        border-bottom: 1px solid #7b7b7b;
+    }
+    ._53il ._558b+._53io {
+        filter: invert(80%);
+    }
+    ._4-u8 {
+        background-color: #292929;
+    }
+    ._2yq._2ltu ._4-u2:before {
+        border: 1px solid #292929;
+    }
+    ._3ubp {
+        background-color: #2d2d2d;
+        border-bottom: 1px solid #2d2d2d;
+    }
+    ._sg1 {
+        background-color: #2d2d2d;
+        border-left: 1px solid #2d2d2d;
+        color: #365899;
+        padding: 0 4px;
+        position: relative;
+    }
+    ._5qtn ._5qtp {
+        color: #cccccc;
+    }
+    .uiIconText .img {
+        filter: invert(100%);
+    }
+    ._16ve {
+        border-top: 1px solid #404040;
+    }
+    ._m_1 {
+        background: #2f2f2f;
+        border-radius: 18px;
+        cursor: pointer;
+        position: relative;
+    }
+    ._m_1 ._2aha {
+        color: #a7a7a7;
+    }
+    ._1mj {
+        direction: ltr;
+        text-align: left;
+        color: #c3c3c3;
+    }
+    ._57d8 {
+        background-color: #292929;
+    }
+    ._2dck {
+        border-top: 1px solid #292929;
+    }
+    ._2znk {
+        background: #292929;
+    }
+    ._53ii ._53il>._53io {
+        filter: invert(84%);
+    }
+    ._53ij {
+        background: #313131 !important;
+    }
+    ._1og- {
+        background-color: #353535;
+        border-top: 1px #353535 solid;
+    }
+    ._59_m {
+        background-color: #2f2f2f;
+        border: 1px solid #2f2f2f;
+    }
+    ._5esl td._5esw {
+        background: #2f2f2f;
+    }
+    ._5esx ._58ak {
+        background: #2f2f2f;
+        border: none;
+        min-width: 100%;
+    }
+    ._5esl td._5esm:first-child {
+        background: #424141;
+        border-right: 1px dotted #2f2f2f;
+        color: #cecece;
+    }
+    ._59_m ._58ah ._58al {
+        color: #c1c1c1;
+    }
+    ._599r {
+        background-color: #313131;
+        border-radius: 2px;
+    }
+    ._585- {
+        background-color: #1f1f1f;
+        border: 1px solid #1f1f1f;
+    }
+    ._585- ._4w98 {
+        background: #292929;
+    }
+    ._3zsi {
+        background: #2d2d2d;
+        border-bottom: 1px solid #2d2d2d;
+        border-top: 1px solid #2d2d2d;
+    }
+    ._50c9 {
+        background: #292929;
+    }
+    ._19bs {
+        color: #c1c1c1;
+    }
+    ._3zsi, ._3zsi a {
+        color: #d4d4d4;
+    }
+    ._19bs:hover {
+        background: #272727;
+    }
+    .fcb {
+        color: #bfbfbf;
+    }
+    ._1qqr {
+        background-color: #1f1f1fc4;
+    }
+    ._1qqu {
+        border: 1.5px solid #292929;
+    }
+    ._517h, ._59pe:focus, ._59pe:hover {
+        background-color: #2f2f2f;
+        border-color: #2f2f2f;
+        color: #c1c1c1;
+    }
+    ._517h:hover {
+        background-color: #2b2b2b;
+    }
+    ._4jy0 .img {
+        filter: invert(50%);
+    }
+    ._4jy1:hover {
+        background-color: #2f2f2f;
+        border-color: #2f2f2f;
+    }
+    ._4jy1 {
+        background-color: #383838;
+        border-color: #383838;
+    }
+    ._558b ._54ah {
+        color: #a0a0a0;
+    }
+    ._2ezy {
+        color: #cecece;
+    }
+    ._50nd ._50nc, ._50ne ._50nc {
+        color: #a9a9a9;
+    }
+    ._558b ._54nc {
+        color: #b5b5b5;
+    }
+    ._558b ._54ne ._54nc {
+        background: #2f2f2f;
+        border-color: #2f2f2f;
+    }
+    ._5vb_, ._5vb_ #contentCol {
+        color: #b7b7b7;
+    }
+    ._1g5v+._4arz {
+        background: #292929;
+    }
+    ._4_dr._20h5 {
+        border-bottom: 1px solid #565656;
+    }
+    ._ipo {
+        background: #292929;
+    }
+    ._4ar- ._3emk {
+        background: #292929;
+    }
+    ._41nt {
+        background: #353535;
+    }
+    ._3-a6._1blz._5vsj .UFIRow.UFIAddComment._4204 {
+        border-top: 1px solid #292929;
+    }
+    ._3-a6._1blz._5vsj .UFIRow, ._3-a6._1blz._5vsj.UFIContainer .UFIReplyList .UFIRow, ._3-a6._1blz._5vsj._5vsj._5vsj {
+        background-color: #252525;
+    }
+    ._fmi {
+        background-color: #1d1d1d;
+        border: 1px solid #1d1d1d;
+    }
+    ._3-a6._1blz ._fmi {
+        border-color: #1d1d1d;
+    }
+    ._3-a6._1blz .UFICommentActorAndBody, ._o0o ._3-a6._1blz .UFICommentActorAndBody {
+        background-color: #2f2f2f;
+    }
+    ._3-a6._1blz .UFICommentActorAndBody, ._o0o ._3-a6._1blz .UFICommentActorAndBody {
+        background-color: #2f2f2f;
+    }
+    ._3-a6 ._10la ._10lo {
+        background: #383838;
+        box-shadow: 1px 1px 3px 0 #31313147;
+    }
+    ._5pcm {
+        border-left: 2px solid #3b4bbd;
+        padding-left: 10px;
+    }
+    ._3x-2 ._5r69._1hvl {
+        border-bottom: 1px solid #545454;
+        padding-bottom: 12px;
+    }
+    ._4ejc {
+        background-color: #292929;
+    }
+    ._5pr2.fbChatSidebar {
+        border-left-color: #292929;
+    }
+    .fbChatSidebar {
+        background-color: #292929;
+        border-left: 1px solid rgb(41, 41, 41);
+    }
+    ._55ln {
+        color: #b9b9b9;
+    }
+    ._5iwm ._58al {
+        background-color: #292929;
+    }
+    .fbChatTypeahead ._3rhb {
+        border-bottom: 1px solid #292929;
+    }
+    ._55ln:focus, ._55ln:hover, li.selected ._55ln {
+        background-color: #232323;
+    }
+    ._5vb_ ._5pr2.fbChatSidebar, .fbCalendar ._5pr2.fbChatSidebar, ._1t4w ._5pr2.fbChatSidebar, .timelineLayout ._5pr2.fbChatSidebar {
+        box-shadow: 1px 0 0 #292929 inset;
+    }
+    #facebook ._-kb button, #facebook ._-kb input, #facebook ._-kb label, #facebook ._-kb select, #facebook ._-kb td, #facebook ._-kb textarea {
+        font-family: inherit;
+        letter-spacing: inherit;
+        color: #d8d8d8;
+    }
+    .fbChatTypeahead.flipped ._62it._2xme {
+        left: 81px;
+        filter: invert(100%);
+    }
+    .fbChatTypeahead ._4p-s {
+        background-color: #383838;
+    }
+    ._225b {
+        background-color: rgb(41, 41, 41);
+        color: rgba(255, 255, 255, 0.58);
+    }
+    ._3q34 {
+        color: rgb(202, 202, 202);
+    }
+    ._3q35 {
+        color: rgba(181, 181, 181, 0.76);
+    }
+    ._364g {
+        color: rgb(183, 183, 183);
+    }
+    .fbChatTypeahead ._3rhb {
+        border-bottom: 1px solid #292929;
+        background: #292929;
+    }
+    ._5vb_ ._5pr2 .fbSidebarGripper, .fbCalendar ._5pr2 .fbSidebarGripper, ._1t4w ._5pr2 .fbSidebarGripper, .timelineLayout ._5pr2 .fbSidebarGripper {
+        border-top: 1px solid #292929;
+    }
+    ._3tr, ._3tr a, ._3ts {
+        color: #c7c7c7;
+        text-shadow: 0 1px #292929;
+    }
+    ._3te {
+        background: #616161;
+    }
+    ._53ik ._558b+._53io {
+        filter: invert(79%);
+    }
+    .fbNubFlyoutTitlebar {
+        background: #292929;
+        border: 1px solid #292929;
+    }
+    ._194v:not(._1yiw):hover {
+        background-color: #292929 !important;
+    }
+    ._55ln:focus, ._55ln:hover, li.selected ._55ln {
+        box-shadow: 1px 0 0 #2864c8 inset;
+    }
+    ._53ii ._53im>._53io {
+        filter: invert(81%);
+    }
+    .sp_sKQnk_5ecuy.sx_b780ee {
+        filter: invert(36%);
+    }
+    ._50nd:hover, ._50ne:hover {
+        background-color: #353535;
+    }
+    ._3652 {
+        color: #d4d4d4;
+    }
+    ::-webkit-scrollbar-track-piece {
+        background-color: #292929;
+    }
+    #facebook ._-kb span {
+        color: #b9b9b9;
+    }
+    ._11c1 ._3scp a {
+        color: #a9a9a9;
+    }
+    .UFICommentReactionsBling ._3emk {
+        background: #383838;
+        border-right: 2px solid #383838;
+    }
+    html ._55r1 {
+        background: #1f1f1f;
+        border: 1px solid #1f1f1f;
+        color: #b9b9b9;
+    }
+    ._5v3q ._5g-l {
+        border-bottom-color: #565656;
+    }
+    ._6m2 {
+        background-color: #333;
+    }
+    #facebook ._-kb a {
+        font-family: inherit;
+        color: #adadad;
+    }
+    ._5vb_ ._dcs .__c_:after {
+        border-color: rgb(51, 51, 51);
+    }
+    ._18-- {
+        border-bottom: 1px solid #292929;
+        margin-bottom: 4px;
+    }
+    ._5vb_ ._dcs:hover .__c_:after {
+        border-color: rgb(51, 51, 51);
+    }
+    ._2iwq::before {
+        background: #1f1f1f;
+    }
+    ._2iwq div {
+        background: #292929;
+    }
+    ._605a ._1enb._1enb {
+        border: 8px solid #292929;
+    }
+    .fbChatSidebarMessage {
+        background-color: #a93d3d;
+        border-top: 1px solid #a93d3d;
+        box-shadow: inset 0 1px #a93d3d;
+    }
+    ._55fl {
+        background: #292929;
+        border-left: 1px solid #292929;
+        box-shadow: 1px 0 0 #292929 inset;
+    }
+    ._4mq3 .fbNubButton {
+        background-color: #353535 !important;
+        border: 1px solid #353535 !important;
+    }
+    ._4mq3 .fbNubButton:hover {
+        background-color: #353535;
+    }
+    ._li._li._li {
+        background: #1f1f1f;
+    }
+    html ._6-d .fbTimelineSection {
+        border: 1px solid #292929;
+    }
+    ._3y89 {
+        border: 1px solid #292929;
+        border: 1px solid rgb(41, 41, 41);
+    }
+    ._9c6._9c6 {
+        border-color: rgb(41, 41, 41);
+    }
+    ._6-6 {
+        border-right: 1px solid #292929;
+    }
+    ._6_7 {
+        border-left: 1px solid #292929;
+    }
+    ._6-7:hover {
+        background: #232323;
+    }
+    ._6-6:hover, ._9rx.openToggler, ._9ry:hover, html ._9rw._54ne ._54nc {
+        background: #232323;
+    }
+    div._9rv ._54ng {
+        border: 1px solid #2f2f2f;
+    }
+    ._569t ._54ng {
+        background-color: #2f2f2f;
+        border: 1px solid #2f2f2f;
+        border-bottom: 2px solid #2f2f2f;
+    }
+    ._569t ._54ak {
+        border-bottom: 1px solid #888888;
+    }
+    .escapeHatchMinimal {
+        background-color: #292929;
+    }
+    ._70k._70k {
+        background: #292929;
+    }
+    .fbTimelineCapsule {
+        background: #1f1f1f;
+    }
+    html ._4__g {
+        border: 1px solid #292929;
+        border-left-color: #292929;
+        border-right-color: #292929;
+    }
+    ._70l {
+        background: #292929;
+        border-bottom: 1px solid #292929;
+    }
+    ._70l {
+        background: #292929;
+    }
+    ._324a {
+        background-color: #1b1b1bba;
+    }
+    ._57fo, ._57fp {
+        height: 36px;
+        background: #292929;
+    }
+    .fbTimelineStickyHeader .back {
+        background-color: #292929;
+        border: 1px solid #292929;
+    }
+    ._2ltu ._4-u2 {
+        border: 1px solid #292929;
+    }
+    body ._607x {
+        background: none;
+        background-color: #292929;
+    }
+    .inputtext:invalid, .inputpassword:invalid {
+        box-shadow: none;
+        background: #292929;
+    }
+    ._46ye {
+        border-top: 1px solid #5f5f5f;
+    }
+    ._50f3 {
+        font-size: 12px;
+        line-height: 16px;
+        color: #d3caff;
+    }
+    ._3-a6._1blz._5vsj ._1g5v+._4arz {
+        background: #252525;
+    }
+    ._5vsj .UFIRow._4204 {
+        border-top: 1px solid #292929;
+    }
+    ._5v3q ._5pbx>p:last-of-type {
+        color: #d6d6d6;
+    }
+    ._5wpt {
+        border-left: 2px solid #3b4bbd;
+    }
+    p {
+        color: #c1c1c1;
+    }
+    ._4d3w._u77 ._xlu {
+        background: #252525;
+    }
+    ._u77 ._4p3v, ._u77 ._xlr {
+        padding: 0 16px;
+        background: #252525;
+    }
+    ._4d3w._u77 .rhcScroller .uiScrollableAreaContent {
+        padding: 0;
+        background: #252525;
+    }
+    ._a7s, ._fgm ._1t6k+._37uu ._610i._a7s._20h6, ._22jw._37uu ._610i._a7s._20h6, ._s_6._37uu ._610i._a7s._20h6, .uiCollapsedList ._20h6._a7s._610i._a7s._610i {
+        border-top: 1px solid #404040;
+    }
+    ._4xdg, ._u77 ._4xdg._3-a6._1blz .UFIRow._4204 {
+        border-top: 1px solid #444444;
+    }
+    ._4d3w._u77 .fbPhotosSnowboxFeedbackInput {
+        background-color: #1b1b1b;
+    }
+    ._4d3w._u77 .fbPhotosSnowboxFeedbackInput ._2r5f .UFIRow {
+        background-color: #1b1b1b;
+    }
+    ._5vsj .UFIShareRow, ._5vsj .UFILikeSentence, ._5vsj ._48pi {
+        border-top: 1px solid #444444;
+    }
+    ._3scn {
+        color: #c1cfea;
+    }
+    ._5va1 {
+        border: 1px solid #383838;
+    }
+    ._2yer {
+        border-bottom: 1px solid #383838;
+    }
+    ._4-u2>._4-u3 {
+        border-top: 1px solid #383838;
+    }
+    ._2vo8 {
+        background-color: #464646;
+        border: 1px solid #464646;
+    }
+    ._3uch:before {
+        background: #424242;
+    }
+    ._4ou3:before {
+        background: #424242;
+    }
+    ._4ovj {
+        color: #c2d3f7;
+    }
+    ._4ovi {
+        color: #ccd9f3;
+    }
+    ._3aco {
+        border-bottom: 1px solid #424242;
+    }
+    body._131._5vb_ {
+        background: #1f1f1f;
+    }
+    ._kt {
+        border-bottom: 1px solid #1f1f1f;
+        border-top: 1px solid #292929;
+    }
+    ._24k, ._64f, ._64f a {
+        background-color: #1f1f1f;
+        color: #90949c;
+    }
+    ._5f9e {
+        color: #afbedc;
+    }
+    ._3n00._2kir {
+        background: #292929;
+        border: 1px solid #292929;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    ._3qw ._3ixn {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    ._1zjl {
+        background: #292929;
+        border-bottom: 1px solid #292929;
+    }
+    ._1zjm {
+        background: #171717;
+    }
+    ._5vwz ._13xf {
+        background-color: #353535;
+    }
+    ._5_6e {
+        color: #dee8fb;
+    }
+    ._4f3a {
+        color: #bcc3d0;
+    }
+    ._1u6r {
+        color: #6a99f5;
+    }
+    .ie10 ._55sh>input+span:before, .webkit ._55sh>input+span:before {
+        background: #171717;
+        border-radius: 8px;
+    }
+    .ie10 ._55sh>input:checked+span:before, .webkit ._55sh>input:checked+span:before {
+        background: #316f94;
+    }
+    ._4f3b:hover {
+        background: #191919;
+    }
+    ._1u6r:hover, ._1u6r:focus {
+        background: #191919;
+    }
+    .uiTypeahead .textInput {
+        background-color: #1f1f1f;
+    }
+    .uiTypeaheadView ul {
+        background: #2f2f2f;
+        border-color: #2f2f2f #2f2f2f #2f2f2f;
+    }
+    .uiTypeaheadView li {
+        border: solid #2f2f2f;
+        color: #b7b7b7;
+    }
+    ._5f9g {
+        background-color: #292929;
+    }
+    ._gli, ._5und._gli {
+        border-bottom: 1px solid #3e3e3e;
+    }
+    ._pac, ._pac a {
+        color: #afafaf;
+    }
+    .ie10 ._55sg>input+span:before, .webkit ._55sg>input+span:before {
+        background: #171717;
+        border-radius: 4px;
+    }
+    .ego_column .ego_section .ego_unit_container ._1__k, .home_right_column .ego_section .ego_unit_container ._1__k {
+        border: 1px solid #404040;
+        padding: 0;
+    }
+    ._5e71 {
+        background-color: #292929;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 1;
+    }
+    .uiBoxGray {
+        background: #2f2f2f;
+        border: 1px solid #2f2f2f;
+    }
+    ._4fzb {
+        border: 1px solid #252525;
+        border-bottom-style: none;
+        margin-bottom: -11px;
+        padding: 11px 11px 1px;
+    }
+    ._4fzb ._5pco, ._4fzb ._5pco p {
+        color: #afafaf;
+        margin-top: 0;
+    }
+    ._13, ._14 {
+        border-color: #1b1b1b;
+        border-style: solid;
+        border-width: 0 1px;
+        background: #1b1b1b;
+    }
+    ._1yw {
+        background-color: #383838;
+        border: 1px solid #383838;
+        border-bottom: 0;
+        color: #c1c1c1;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    ._42fu:hover {
+        background-color: #272727;
+    }
+    ._42fu, ._42gx:focus, ._42gx:hover {
+        background-color: #232323;
+        border: 1px solid #232323;
+    }
+    ._22sv {
+        background-color: #1f1f1f;
+    }
+    ._2wtx {
+        border: 1px solid;
+        border-color: #212121 #191919 #151515;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ._4idm {
+        background-color: #212121;
+        bottom: 0;
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity .2s;
+        width: 37px;
+        z-index: 11;
+    }
+    ._1mv9 ._3el6 {
+        border: 1px solid #353535;
+        margin: 0 6px;
+    }
+    ._1t3m {
+        color: #d0d0d0;
+        font-family: Helvetica-Bold;
+        font-size: 12px;
+        margin: 0 12px 12px 12px;
+    }
+    ._4idn {
+        background-color: #333;
+        border: 1.5px solid #333;
+        border-radius: 2px;
+        padding: 8px 9px 6px 9px;
+        position: absolute;
+        top: 50%;
+        z-index: 12;
+    }
+    .__tw {
+        background: #1f1f1f;
+        border: 1px solid rgb(31, 31, 31);
+        border-radius: 0 0 2px 2px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.39);
+        color: #ababab;
+    }
+    .__tw div.jewelHeader {
+        background-color: #313131;
+        border-bottom: solid 1px #313131;
+    }
+    ._3nzl ._3nzk .hasPYMK, ._3nzl ._3nzk .friendConfirmedNotifsUnitDisaggregated, ._3nzl ._3nzk .friendConfirmedNotifsUnitAggregated {
+        border-bottom: 1px solid #313131;
+    }
+    ._3nzk .fbRequestList .listGray {
+        background-color: #1b1b1b;
+    }
+    ._3nzk ._3nzq ul .friendBrowserListUnit {
+        border-bottom: 1px solid #4c4c4c;
+        border-top: 0;
+    }
+    .__tw .jewelFooter a {
+        background-color: #313131;
+        border-top: 1px solid #313131;
+    }
+    .__tw .beeperNub {
+        filter: invert(80%);
+    }
+    ._3nzl .friendConfirmedNotifsUnitAggregated>a>.pas, ._3nzl .friendConfirmedNotifsUnitDisaggregated>a>.pas {
+        padding: 10px 12px;
+    }
+    ._2jyf {
+        color: #969fb3;
+        font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.38;
+        margin: 12px auto 4px;
+        width: 320px;
+    }
+    ._rzn {
+        border: 1px solid #525252;
+        border-radius: 3px;
+    }
+    ._2yq ._4-u2::before {
+        border: 1px solid #292929;
+        border-radius: 4px;
+        bottom: -1px;
+        content: '';
+        left: -1px;
+        pointer-events: none;
+        position: absolute;
+        right: -1px;
+        top: -1px;
+    }
+    .fbReminders .fbRemindersStory:hover {
+        background-color: #2d2d2d;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .sp_CseDy_D9xvf.sx_bc50eb,.sp_h-bdjs6gHvC.sx_cf549a,.sp_CseDy_D9xvf.sx_37cdda,.sp_CseDy_D9xvf.sx_47e056,.sp_5dPJmk_F9Qt.sx_7df7ce,.sp_MIsFjnRClRd.sx_e76408,.sp_KNcgF_xMEgJ.sx_04cc6c,.sp_Sk5XoboE8pD.sx_e4e305,._3jy5.repliedLast,._j0r,._3jyj,.fbNub._50mz .titlebar .button {
+        filter: invert(100%);
+    }
+    ._fyy {
+        background-color: #2d2d2d;
+        border-bottom: 1px solid #2d2d2d;
+        color: #90949c;
+    }
+    .jewelItemNew ._33e {
+        background-color: #292929;
+    }
+    ._33c {
+        background-color: #212121;
+        border-bottom: 1px solid #292929;
+    }
+    ._1sdi {
+        background-color: #313131;
+        color: #90949c;
+    }
+    ._1y2l .jewelContent a.messagesContent {
+        border-bottom: 1px solid #272727;
+        border-top: 1px solid #272727;
+    }
+    ._3y6_ {
+        border-top: 1px solid #313131;
+        padding: 8px 12px;
+    }
+    .fbNub._50mz .conversationContainer {
+        table-layout: fixed;
+        background: #232323;
+    }
+    .fbNub._50mz .fbNubFlyoutFooter {
+        background: #292929;
+        min-height: 32px;
+    }
+    .fbNub._50mz .chatAttachmentShelf {
+        background-color: #292929;
+        border-top: 1px solid #292929;
+    }
+    .fbNubFlyoutTitlebar {
+        background: #292929;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+        color: #191919;
+    }
+    ._15p4 {
+        background: #292929;
+    }
+    ._569t ._54nc {
+        border: solid #2f2f2f;
+    }
+    ._1gyi {
+        color: #c1c1c1;
+    }
+    ._57a._57b {
+        background: #1f1f1f;
+    }
+    #fbTimelineHeadline .profilePic, #fbTimelineHeadline .newProfilePic {
+        background-color: #292929;
+        border: 4px solid #292929;
+        border-radius: 2px;
+    }
+    ._4-u2 {
+        border: 1px solid #292929;
+        border-radius: 3px;
+    }
+    ._513x {
+        background-image: none;
+    }
+    ._2xbx {
+        border: 1px solid #313131;
+        border-radius: 4px;
+        background: #313131;
+    }
+    ._3wkw {
+        color: #cecece;
+    }
+    ._1s48 {
+        background-color: #292929;
+        color: #616770;
+    }
+    .uiButtonGroup .uiButtonOverlay {
+        background-clip: padding-box;
+        border-color: #2f2f2f;
+    }
+    .uiButtonOverlay, .uiButtonOverlay:hover {
+        background-clip: padding-box;
+        background-color: rgb(49, 49, 49);
+        background-image: none;
+        border-color: #a5a5a5;
+        border-color: rgba(0, 0, 0, .35);
+        border-radius: 2px;
+        position: relative;
+    }
+    ._fyy {
+        background-color: #2d2d2d;
+        border-bottom: 1px solid #2d2d2d;
+        color: #90949c;
+    }
+    ._9jo ._54ne .uiLinkButton input, ._9jo ._54ne a.navSubmenu, ._9jo li.navSubmenu._54ne a, ._9jo li._54ne {
+        background-color: #333333;
+        color: #fff !important;
+        text-decoration: none;
+    }
+    ._1cx1 ._m_1:hover {
+        background-color: #383838;
+    }
+    ._5v3q ._5mxv {
+        border-top-color: #545454;
+    }
+    ._yv- {
+        background: #292929;
+    }
+    ._n27 {
+        color: #bfbfbf !important;
+    }
+    ._5vaf {
+        color: #a7a7a7 !important;
+    }
+    ._2o8x {
+        color: #cecece !important;
+    }
+    ._n20 {
+        background-color: #292929;
+        border-bottom: 1px solid #3c3c3c;
+        border-top: 1px solid #292929;
+    }
+    ._s39 {
+        border-bottom: 1px solid #292929;
+    }
+    ._5ugf {
+        background-color: #292929;
+        border: 1px solid rgba(0, 0, 0, .15);
+    }
+    ._3cql {
+        background-color: #1f1f1f;
+        border-top: 1px solid #1f1f1f;
+    }
+    ._n22 {
+        color: #b7b7b7;
+        padding-left: 8px;
+    }
+    ._1nv5 ._11kf {
+        border: 4px solid #1f1f1f;
+    }
+    ._4jy1._42fr {
+        background-color: #3e3c3c;
+        border-color: #3e3c3c;
+    }
+    ._2w3>._30f {
+        background: #252525;
+        border: 1px solid #292929;
+    }
+    ._3cz {
+        background: #292929;
+        border-bottom: 1px solid #292929;
+    }
+    ._3s- ._3s_ {
+        display: block;
+        filter: invert(75%);
+    }
+    ._5vg {
+        border-bottom: 1px solid #1f1f1f;
+        border-top: 1px solid #484848;
+        margin-top: -10px;
+    }
+    ._5vf h3.uiHeaderTitle, ._5vf .uiHeaderActions a {
+        color: #c9d0da;
+        text-shadow: 0 1px 0 #1f1f1f;
+    }
+    ._5vf h3.uiHeaderTitle, ._5vf .uiHeaderActions {
+        background-color: #1f1f1f;
+    }
+    ._1_cb {
+        background: #292929;
+        border: 1px solid #292929;
+        border-top-color: #292929;
+    }
+    ._517h:active, ._517h._42fs {
+        background-color: #2f2f2f;
+        border-color: #2f2f2f;
+    }
+    html ._6r5, html ._6r5 .wrap {
+        border-color: #1f1f1f;
+    }
+    .uiTypeahead {
+        background: #1f1f1f;
+        border: solid #1f1f1f;
+        border-width: 1px 0;
+        cursor: default;
+        position: relative;
+    }
+    ._3t3 {
+        background: #1f1f1f;
+        border-radius: 0 0 2px 2px;
+        border-top: 1px solid #1f1f1f;
+    }
+    ._14b9 ._r95, ._14b9 ._gx6 {
+        border: 1px solid #252525;
+        border-top: 0;
+    }
+    ._33hy {
+        background: #232323;
+        border-top: 1px solid #232323;
+        clear: both;
+        height: 25px;
+        overflow: hidden;
+        padding: 9px 12px 0;
+    }
+    html ._5k35 ._5k3a {
+        border: 1px solid #313131;
+        vertical-align: top;
+    }
+    ._1eds .uiPopoverButton, ._1eds ._g4r ._401v {
+        opacity: 1;
+    }
+    .uiSearchInput span {
+        border: 0;
+        border-top: 1px solid #1f1f1f;
+        display: inline-block;
+        padding: 1px 0 2px;
+        position: relative;
+    }
+    .uiTypeahead {
+        background: #1f1f1f !important;
+        border: solid #1f1f1f !important;
+        border-width: 1px 0;
+        cursor: default;
+        position: relative;
+    }
+    html ._262m ._698 {
+        border: 1px solid #4a4a4a !important;
+        display: inline-block;
+        margin: 0 0 13px 13px;
+        padding: 0 10px 0 0;
+        position: relative;
+        vertical-align: top;
+        width: 390px;
+    }
+    ._c24 {
+        color: #8692a7 !important;
+    }
+    ._mfs {
+        color: #909090 !important;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    ._mft {
+        color: #b9b9b9 !important;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    ._4ks>li {
+        border-color: #424242 !important;
+        border-style: solid;
+    }
+    ._5y02:focus, ._5y02:hover {
+        background-color: #292929 !important;
+    }
+    ._2kp5 {
+        background-color: #292929 !important;
+        border-bottom: 1px solid #292929;
+        border-top: 1px solid #292929;
+        margin: 0 -24px 20px;
+        padding: 12px 24px 8px 24px;
+    }
+    ._4ms4 {
+        border-left: 1px solid #252525;
+    }
+    ._5f_8:focus, ._5f_8:hover {
+        background-color: #292929;
+    }
+    .uiHeader h2 {
+        color: #d8d8d8;
+        font-size: 16px;
+    }
+    .fbSettingsList .fbSettingsListItemLabel {
+        color: #fff;
+        float: left;
+        font-size: 12px;
+        width: 165px;
+    }
+    .hasLeftCol #contentCol {
+        border-left: 1px solid #292929;
+        margin-left: 181px;
+        min-height: 600px;
+    }
+    #contentCol {
+        background-color: #292929;
+        padding-top: 15px;
+    }
+    .hasLeftCol #mainContainer {
+        border-right: 1px solid #292929;
+        min-height: 600px;
+    }
+    .fbSettingsListBorderTop {
+        border-top: 1px solid #7d7d7d;
+    }
+    .fbSettingsListBorderBottom {
+        border-bottom: 1px solid #7d7d7d;
+    }
+    .fbSettingsList a.fbSettingsListLink:hover {
+        background: #2f2f2f;
+        text-decoration: none;
+    }
+    html .fbSettingsNavigation .divider {
+        background: #3a3a3a;
+        border: none;
+        display: list-item;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .uiSideNav .item, .uiSideNav .subitem {
+        border-bottom: 1px solid #1f1f1f;
+        color: #565656;
+        display: block;
+        min-height: 17px;
+        padding: 3px 8px 0 28px;
+        text-decoration: none;
+    }
+    .uiSideNav .selectedItem .item, .uiSideNav .selectedItem .item:hover {
+        background-color: #292929;
+        font-weight: bold;
+        border-top-left-radius: 7px;
+    }
+    .fbSettingsList a.fbSettingsListLink:hover {
+        background: #2f2f2f;
+        text-decoration: none;
+    }
+    .fbSettingsList a.fbSettingsListLink:hover {
+        background: #1f1f1f;
+        text-decoration: none;
+    }
+    .hasLeftCol #contentCurve {
+        border: 1px solid #1f1f1f;
+        border-top: none;
+        position: relative;
+    }
+    .hasLeftCol #pageFooter {
+        background-color: #1f1f1f;
+        clear: both;
+        margin-left: 180px;
+    }
+    body {
+        background: #1f1f1f;
+        color: #1d2129;
+    }
+    .uiSideNav .item:hover {
+        background-color: #171717;
+        text-decoration: none;
+    }
+    ._15v9 {
+        border-bottom: 1px solid #1f1f1f;
+    }
+    ._k7g {
+        background: #1f1f1f;
+        color: #1f1f1f;
+        padding: 12px;
+    }
+    ._a7w {
+        border-bottom: 1px solid #404040;
+        padding: 12px;
+    }
+    h3 {
+        color: #bbbbbb;
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    .fbSettingsSections .fbSettingsSectionsItem.fbSettingsSectionsItemBorderTop {
+        border-top: 1px solid #444;
+    }
+    .fbSettingsSections {
+        border-bottom: 1px solid #292929;
+    }
+    ._iw3 {
+        background: #1f1f1f;
+        border-bottom: 1px solid #1f1f1f;
+        border-top: 1px solid #1f1f1f;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    .uiInfoTable .label {
+        color: #b1b1b1;
+        font-weight: bold;
+        padding-right: 10px;
+        text-align: right;
+        width: 150px;
+    }
+    ._iw2 {
+        width: 220px;
+        background: #292929;
+    }
+    .uiButtonConfirm:hover {
+        background-color: #2b2b2b;
+        border-color: #2b2b2b;
+    }
+    .uiButtonConfirm {
+        background-color: #292929;
+        border-color: #292929;
+    }
+    ._2iex {
+        color: #b2bcca;
+    }
+    ._66a_ {
+        background-color: #232323;
+        border: 1px solid #232323;
+    }
+    ._54ni ._2hp_, ._5v3q ._cmw ._4xev {
+        filter: invert(100%);
+    }
+    .uiCloseButtonSmall {
+        filter: brightness(900%);
+    }
+    .uiCloseButtonSmall:hover, .uiCloseButtonSmall:focus {
+        background-position: left -24px;
+        background: #00000008;
+    }
+    ._3eqz ._3ekx {
+        border-bottom: 1px solid #333333;
+        border-right: 1px solid #333333;
+    }
+    .uiHeaderBottomBorder {
+        border-bottom: 1px solid #404040;
+        padding-bottom: .5em;
+    }
+    ._33e {
+        color: #1d2129;
+        display: block;
+        padding: 11px 30px 10px 10px;
+        position: relative;
+    }
+    .uiHeaderSection, .uiSideHeader {
+        background-color: #292929;
+        border-top: solid 1px #292929;
+    }
+    .uiHeader h6 {
+        color: #e0e0e0;
+    }
+    ._5pr2.fbChatSidebar {
+        border-left-color: #292929;
+        box-shadow: inset 2px 0 2px -2px #292929;
+    }
+    ._55oc {
+        color: #b1b1b1;
+    }
+    ._5861 ._1frb {
+        height: 18px;
+        padding-top: 0px;
+    }
+    ._41mp {
+        background-color: #1f1f1f;
+        border: 1px solid #1f1f1f;
+    }
+    ._4-i0 ._52c9 {
+        color: #e6e6e6;
+    }
+    ._4-i0 {
+        background-color: #1f1f1f;
+        border-bottom: 1px solid #1f1f1f;
+    }
+    div._4-i2 {
+        background-color: #151515;
+    }
+    ._18nv {
+        border: 2px solid #1f1f1f;
+        border-radius: 0px;
+    }
+    ._30p3 {
+        background-color: #0a0a0a;
+        border: 1px dashed #4267b2;
+    }
+    .sp_zE25ab4qjBM.sx_43255f, ._41mq {
+        filter: brightness(500%);
+    }
+    ._70n {
+        color: #b5b9bf;
+    }
+    ._5jgy {
+        background: #151515;
+    }
+    ._4t2a {
+        background-color: #1f1f1f !important;
+    }
+    .uiCloseButton, .sp_CJdhEXuz5oX.sx_5b85fa {
+        filter: brightness(900%);
+    }
+    .sp_4lxSIRI1RTb.sx_9f2031, .sp_4lxSIRI1RTb.sx_368a60, .sp_XZ6CCnC3CH0.sx_6a0fbd, .sp_Vwm17iA5muE.sx_ab5a18 {
+        filter: brightness(250%);
+    }
+    ._1pek ._26bz {
+        background-color: #1d1d1d;
+    }
+    ._45wg {
+        padding: 0 12px 10px;
+        background: #1d1d1d;
+    }
+    ._1pek {
+        background-color: #1d1d1d;
+    }
+    ._1pek ._1sex:hover {
+        background-color: #212121;
+    }
+    ._23ju {
+        background-color: #292929;
+    }
+    ._69ad ._fmi {
+        background-color: #1d1d1d;
+    }
+    ._585r {
+        background: #232222;
+        margin: 0;
+        padding: 9px 10px;
+        color: #e4e4e4;
+    }
+    ._5pr2 .fbSidebarGripper {
+        border-top: 1px solid #fff0;
+    }
+    .uiBoxYellow {
+        background-color: #565130;
+        border: 1px solid #565130;
+    }
+    ._2iep {
+        font-size: 12px;
+        line-height: 16px;
+        color: #b1b1b1;
+    }
+    ._4-u2>._4-u3:first-child {
+        border-top: none;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background: #353535;
+    }
+    ._680o {
+        background-color: #313131;
+        border-bottom: 1px #313131 solid;
+        border-radius: 3px 3px 0 0;
+        display: flex;
+    }
+    ._680w {
+        background: #313131;
+    }
+    ._680u {
+        border-left: 1px #313131 solid;
+        background: #313131;
+    }
+    ._680k {
+        border: 1px #313131 solid;
+    }
+    ._680l {
+        border-bottom: 1px #313131 solid;
+    }
+    ._4e-7 ._1hqh {
+        background-color: #313131;
+    }
+    ._684j {
+        background-color: #bb2f2f;
+        border: 1px #bb2f2f solid;
+        border-radius: 16px;
+        box-sizing: border-box;
+        color: #ffffff;
+        display: inline-block;
+        display: none;
+        flex: 0 0 auto;
+        font-size: 11px;
+        height: 18px;
+        line-height: 16px;
+        margin-left: 8px;
+        padding: 0 6px;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
+    ._680n {
+        background-color: #313131;
+    }
+    ._680m ._58ak {
+        border: 1px #1f1f1f solid;
+    }
+    ._2_ks {
+        background: #3c3c3c;
+    }
+    ._3y15 {
+        border: 1px solid #313131;
+    }
+    ._3y1k {
+        color: #c1c1c1;
+    }
+    ._2_ku {
+        background-color: #383838;
+        border-left: 1px #383838 solid;
+    }
+    ._2_ks:hover {
+        background-color: #3a3a3a;
+    }
+    ._680x {
+        background-color: #252525;
+        border-top: 1px #252525 solid;
+    }
+    ._3o4u {
+        color: #e0e0e0;
+    }
+    ._680x:hover {
+        background-color: rgba(19, 19, 19, 0.3);
+    }
+    ._3q73 {
+        background: #313131;
+        border: 4px solid #313131;
+    }
+    ._59pe:focus, ._59pe:hover {
+        background-color: #444444;
+        border-color: #444444;
+        color: #c1c1c1;
+    }
+    ._3y15:hover {
+        border-color: #3c3c3c;
+    }
+    ._4e-7 ._45hc:hover ._13xf {
+        background-color: #3c3c3c;
+    }
+    ._3o_h::after, ._2yaa ._2yau::after {
+        background: #383838;
+        border: 1px solid #383838;
+    }
+    ._3o_h {
+        color: #e4e4e4;
+    }
+    ._5a5j {
+        background: #292929;
+    }
+    ._7tw {
+        border: 1px solid #737373;
+        border-width: 1px 0 0 0;
+        color: #90949c;
+        padding-top: 12px;
+    }
+    ._4mnq {
+        background-color: #5a5a5a;
+        border: 2px solid #5a5a5a;
+    }
+    ._b19 {
+        background-color: #333333;
+        position: relative;
+    }
+    ._4pu6 ._37uu ._610i._a7s._20h6._2h27 {
+        border-top: 1px solid #797979;
+    }
+    ._50f9 {
+        color: #c2d6fd;
+    }
+    #pagelet_timeline_recent .fbTimelineCompactSection {
+        padding: 0;
+        background: #292929;
+    }
+    ._5i-8 {
+        border-bottom: 1px solid #2f2f2f;
+    }
+    ._5i-7 {
+        background-color: #2f2f2f;
+    }
+    h2 {
+        color: #d9d9d9;
+    }
+    ._30d {
+        background-color: #292929;
+        border-color: #2f2f2f #2f2f2f #2f2f2f;
+    }
+    .uiHeaderTopAndBottomBorder {
+        border-bottom: 1px solid #292929;
+    }
+    ._5hto {
+        background: #292929;
+        background-position: right top;
+        background-repeat: no-repeat;
+        max-height: 200px;
+        position: relative;
+    }
+    ._2qe3 {
+        background-color: #1f1f1f;
+    }
+    ._1l1t {
+        background: #313131;
+        padding: 12px 24px;
+    }
+    ._2jse ._-sm {
+        border-top: 1px solid #4d4d4d;
+    }    
+    ._2jse ._-sl {
+        background-color: #313131;
+    }
+    .titlebar ._69pt:hover {
+        background-color: #353535;
+    }
+    .titlebar ._69pt {
+        background-color: #292929;
+    }
+    ._4-u5 {
+        background-color: #181818;
+    }
+    ._3ma {
+        color: #bdbdbd;
+    }
+    ._6s {
+        color: #acacac;
+    }
+    ._53jh {
+        background-color: #232323;
+        background-image: linear-gradient(#232323, #232323);
+        border-bottom: 1px solid #232323;
+    }
+    ._2_68 {
+        color: #bbbbbb;
+    }
+    ._58mf .uiStickyPlaceholderInput {
+        background: #131313;
+    } 
+    ._58mf ._58mg {
+        border-color: #131313;
+    }
+    select {
+        border: 1px solid #131313;
+    }
+    ._58mq select {
+        background: #131313;
+    }
+    ._6wl {
+        background: linear-gradient(#303030, #303030);
+        background-color: #303030;
+        box-shadow: inset 0 1px 1px #303030;
+        border-color: #303030 #303030 #303030;
+    }
+    ._6wl:hover {
+        background: linear-gradient(#343434, #343434);
+        background-color: #343434;
+        box-shadow: inset 0 1px 1px #343434;
+        border-color: #343434 #343434 #343434;
+    }
+    ._1gbd {
+        box-shadow: 0 0 0 1px #313131;
+    }
+    ._1gaz {
+        background-color: #313131;
+    }
+    ._1gax {
+        background-color: #272727;
+    }
+    .menu_login_container .inputtext, .menu_login_container .inputpassword {
+        border-color: #191919;
+        background: #191919;
+    }
+    .uiBoxWhite {
+        background-color: #292929;
+        border: 1px solid #292929;
+    }
+    .uiButton {
+        background-color: #272727;
+        border: 1px solid #272727;
+    }
+    .uiMenuSeparator {
+        border-bottom: 1px solid #686868;
+        margin: 5px 7px 6px;
+        padding-top: 1px;
+    }
+    .uiMenuItem .itemAnchor {
+        border: solid #2e2e2e;
+    }
+    .uiMenu {
+        background-color: #2e2e2e;
+        padding: 3px 0 4px;
+        overflow-y: auto;
+    }
+    ._53ip ._53il ._53io {
+        filter: invert(80%);
+    }
+    ._1nv3 ._11kf {
+        background-color: #1f1f1f;
+    }
+    ._129h {
+        background-color: #1f1f1f;
+        border: 1px solid #1f1f1f;
+    }
+    ._2yq ._4-u2::before {
+        border: 1px solid #00000000;
+    }
+    ._2yq ._4-u2 {
+        border-color: #00000000;
+    }
+    ._6i_k {
+        align-items: center;
+        background: #282828;
+    }
+    ._6i_k:hover {
+        background: #292929;
+        text-decoration: none;
+    }
+    ._6i_i {
+        border-bottom: solid 1px #3b3b3b;
+    }
+    ._5wvt ._5lz7, ._5wvt ._578f {
+        color: #ffffff;
+        line-height: 18px;
+    }
+    div._4-i2 {
+        background-color: #1e1e1e;
+    }
+    ._59s7 {
+        background-color: #1f1f1f;
+    }
+    ._785p {
+        background-color: #363636;
+    }
+    ._3_gi .uiSearchInput::after, ._3_gi .uiTypeahead::after, ._3_gi ._58ak::after {
+        background-color: #383838;
+        border: 1px solid rgba(1, 1, 1, 0.33);
+    }
+    ._6vua::after {
+        background-color: #191919;
+        border: 1px solid #191919;
+    }
+    ._7259 {
+        border-bottom: 1px solid #484848;
+    }
+    ._-kb div {
+        color: #bdbdbd;
+    }
+    .fbTimelineStickyHeader .stickyHeaderWrap {
+        background-color: #292929;
+        border: 1px solid #323232;
+    }
+    ._36nj::before {
+        border-left: 1px solid #1f1f1f;
+        border-right: 1px solid #1f1f1f;
+    }
+    ._437j {
+        background-color: #292929;
+    }
+    ._6853 {
+        background-color: #292929;
+    }
+    ._1rh0 ._1rg_ .UFIRow {
+        background-color: #353535;
+    }
+    ._1rg_ {
+        border-top: 1px solid #353535;
+    }
+    ._6ajm {
+        background-color: #292929;
+    }
+    ._6853 ._1rh0 {
+        background-color: #292929;
+    }
+    ._6859 {
+        background-color: #292929;
+    }
+    ._6864 {
+        background-color: #424242;
+    }
+    ._371r {
+        border-top: 1px solid #595959;
+        padding-top: 16px;
+    }
+    ._3w53 {
+        background-color: #292929;
+        border-top: 1px solid #3a3a3a;
+    }
+    ._3dlg+._3dli {
+        background: #292929;
+    }
+    ._1n9k {
+        background: #292929;
+    }
+    ._6qw3 {
+        background-color: #464646;
+    }
+    ._1lha {
+        background: #464646;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.41);
+        color: #8d949e;
+    }
+    ._1lg- {
+        background: #464646;
+        border-right: 2px solid #464646;
+    }
+    ._3vum {
+        border-bottom: 1px solid #5b5b5b;
+    }
+    ._4d3w._u77 ._3t09 {
+        background: #252525;
+    }
+    ._6iiv {
+        background-color: #252525;
+    }
+    ._4d3w._u77 .fbPhotosSnowboxFeedbackInput {
+        background-color: #252525;
+        border-top: 1px solid #252525;
+    }
+    ._6r_e {
+        border-top: 1px solid #5d5d5d;
+    }
+    ._6iib {
+        border-bottom: 1px solid #676767;
+    }
+    ._6_lt:hover {
+        background-color: #212121;
+    }
+    ._4h7j {
+        background-color: #333333;
+    }
+    ._3bzd {
+        background-color: #292929;
+    }
+    ._2x8l {
+        background-color: #1b1b1b;
+    }
+    ._22ck {
+        background: linear-gradient(#2f2f2f, #252525 80%);
+    }
+    ._4zsl {
+        border: 1px solid #292929;
+    }
+    }
+    
+    @-moz-document url-prefix("http://example.com") {
+    /*Anatoliy.s.spb code*/
+    ._3vum { 
+    border-bottom: 1px solid #656363;
+    }
+    ._3dlg+._3dli {
+    background: #292929;
+    }
+    ._3w53 {
+    background-color: #292929;
+    }
+    .fbNubButton {
+    background: none;
+    }
+    ._129h {
+    background-color: #dcd8d8;
+    border: 1px solid #5d5c5c;
+    }
+    ._6x82 {
+    background-color: #353535;
+    border: 1px solid #353535;
+    }
+    .fbTimelineStickyHeader .stickyHeaderWrap {
+    background-color: #292929;
+    border: 1px solid #808080;
+    }
+    ._2x8l {
+    background-color: #3c3b3b;
+    } 
+    ._2x8l {
+    background-color: #3c3b3b;
+    color: #b9b9b9;
+    }
+    ._1g5v+._4arz {
+    background: #292929;
+    }
+    ._6rbd {
+    background-color: #292929;
+    }
+    ._6rbe {
+    background-color: #292929;
+    }
+    ._3ake {
+    color: #b7b7b7;
+    }
+    ._5t_y ._1dsl {
+    border-bottom: 1px solid #787978;
+    }
+    ._6qw3 {
+    background-color: #353535;
+    }
+    ._3eqz ._3ekx {
+    background-color: #353535;
+    }
+    ._fwx, ._fwx a {
+    color: #adadad;
+    }
+    ._kyy {
+    background-color: #292929;
+    }
+    .uiMorePagerLight .uiMorePagerPrimary, .uiMorePagerLight .uiMorePagerLoader {
+    border-top: 1px solid #424242;
+    }
+    ._3u-1:before {
+    border-top: 1px solid #383838;
+    }
+    ._5kyi, ._1asl {
+    background: #292929;
+    }
+    ._tzi {
+    background-color: #383838;
+    }
+    ._tzm+._tzm {
+    border-top: 1px solid #383838;
+    }
+    _2x1p {
+    border-top: 1px solid #383838;
+    }
+    ._z6j {
+    background-color: #383838;
+    border: 1px solid #383838;
+    }
+    #contentCurve {
+    border-bottom: 1px solid #383838;
+    }
+    div._5a8u {
+    background-color: #1f1f1f;
+    }
+    ._5lnf {
+    border-top: 1px solid #383838;
+    }
+    ._3scu {
+    border-top: 1px solid #383838;
+    } 
+    ._kj3 {
+    background: #292929;
+    border: 1px solid #383838;
+    } 
+    ._h71 {
+    border-bottom: 1px solid #353535;
+    } 
+    ._40pu {
+    border-bottom: 1px solid #90949c;
+    } 
+    ._40pv {
+    background-color: #1f1f1f;
+    }
+    ._57y- {
+    background: #a3a3a3;
+    }
+    ._57yz {
+    border: 1px solid #353535;
+    }
+    ._54t9 {
+    background-color: #353535;
+    border-top: 1px solid #424242;
+    }
+    ._6z- .uiSideNav .selectedItem>.item, ._6z- .uiSideNav .selectedItem>.subitem {
+    background-color: #292929;
+    border-bottom: 1px solid #1f1f1f;
+    border-top: 1px solid #292929;
+    }
+    ._3w53 {
+    border-top: 1px solid #636363;
+    }
+    ._2shf {
+    border-top: 1px solid #dddfe2;
+    }	
+    ._2shi {
+    border: 1px solid #636363;
+    }
+    ._5u_6._5wcf, ._5voi._5wcf, ._5xmz._5wcf {
+    background: #353535;
+    }
+    ._5wcf, ._75c- {
+    border-top: 1px solid #636363;
+    }
+    ._p9q {
+    background-color: #dcd8d8;
+    border: 1px solid #292929;
+    }
+    ._1-7u {
+    background-color: #717171;
+    border: 1px solid #292929;
+    }
+    ._14_q {
+    border-top: 1px solid #404040;
+    }
+    ._2wmv {
+    border-bottom: 1px solid #404040;
+    }	
+    ._1m6 {
+    border-bottom: 1px solid #404040;
+    }	
+    ._5_64 {
+    border-bottom: 1px solid #404040;
+    }
+    ._4d3w._u77 ._3t09 {
+        background: #252525;
+    }
+    ._1n9k {
+        background: #292929; }
+    ._1lha {
+        background: #656161;
+    }
+    ._1lg- {
+        background: #656161;
+        border-right: 2px solid #656161;
+    }
+    ._4ciy ._bui .sideNavItem {
+    border-top: 1px solid #404040;
+    }
+    ._bui ._5afe {
+    border-bottom: 1px solid #404040;
+    }
+    ._4d3w._u77 ._3t09 {
+    background: #252525;
+    }
+    ._3-v_ {
+    border-bottom: 1px solid #404040;
+    } 
+    ._5k_u {
+    border: 1px solid #404040;
+    }
+    ._5lbp {
+    border: 1px solid #404040;
+    }
+    ._2iev {
+    color: #adadad;
+    }
+    ._2iem {
+    color: #adadad;
+    }
+    ._62c5 ._5s-c._62xd, ._62c5 ._5s-c:hover {
+    background-color: #292929;
+    border-color: #353535;
+    }
+    ._2v-2 {
+        border-bottom: 1px solid #383838;
+    }
+    ._3ds9 {
+        border-bottom: 1px solid #565656;
+    }
+    ._364n ._grm {
+        background: #383838;
+        border-bottom: 1px solid #383838;
+    }
+    ._2s60 ._357t {
+        background-color: #1f1f1f;
+        border: 1px solid #292929;
+    }
+    ._21m- ._3bhz {
+        border-bottom: 1px solid #383838;
+    }
+    .groupJumpLayout #rightCol .uiHeaderSection, .groupJumpLayout
+    #rightCol .uiSideHeader, .groupJumpLayout .uiHeaderSection,
+    .groupJumpLayout .uiSideHeader {
+        border-top: 1px solid #383838;
+    }
+    ._dut {
+        background-color: #383838;
+        border-bottom: 1px solid #383838;
+        border-top: 1px solid #383838;
+    }
+    ._4-u2>._4-u3:first-child {
+        background: #292929;
+    }
+    ._j1x {
+    border-bottom: 1px solid #383838;
+    }
+    ._1c-2 {
+    border-bottom: 1px solid #383838;
+    }
+    ._63ok {
+    border-left: 1px solid #383838;
+    }
+    ._6qq5 {
+    border-bottom: 1px solid #383838;
+    }
+    ._ifk {
+    border-bottom: 1px solid #383838;
+    }
+    ._g3h {
+    border-bottom: 1px solid #404040;
+    } 
+    ._4d6h {
+    border-bottom: 1px solid #404040;
+    } 
+    ._3xop {
+    border-left: 1px solid #797979;
+    } 
+    .uiTypeahead .wrap {
+    border: solid #292929;
+    }
+    ._avo {
+    border-top: 1px solid #797979;
+    }
+    .fbTimelineSection {
+    background: #353535;
+    }
+    ._1fa6 ._3fbp {
+    background: #383838;
+    }
+    ._dta, ._dta a {
+    color: #adadad;
+    }
+    ._1klk {
+    border: 1px solid #565656;
+    }
+    ._4vxj {
+    border-bottom: 1px solid #383838;
+    }
+    ._4ik4 {
+    color: #807e7e;
+    }
+    ._2pi2 {
+    color: #807e7e;
+    }
+    ._2wtx {
+    border-color: #383838 #383838 #383838;
+    }
+    ._21m- ._1ore {
+        border-top: 1px solid #383838;
+    }
+    h1 {
+        color: #b9b9b9;
+    }
+    ._4xbk ._40jq+._40jq {
+        border-top: 1px solid #383838;
+    }
+    ._1wc- {
+        border: 1px solid #383838;
+    }
+    ._65nn {
+    border-bottom: 1px solid #383838;
+    }
+    ._2ih_ {
+    color: #adadad;
+    }
+    ._1kuj:after {
+    background: #b9b9b9;
+    }
+    ._5kyi, ._1asl {
+    background: #383838;
+    }
+    ._2iel {
+    color: #737373;
+    }
+    ._5ep8 {
+    color: #8e8e8e;
+    }
+    .uiHeaderNav {
+    border-color: #1f1f1f;
+    }
+    ._2o49 {
+    background: #292929;
+    border: 1px solid #383838;
+    }
+    ._kj3 .uiSearchInput {
+    border-color: #383838;
+    }
+    .uiSearchInput {
+    background: #292929;
+    }
+    ._6z- .uiHeaderNav {
+    background-image: none;
+    }
+    .fbSettingsSections .subscriberDropdown {
+    color: #b9b9b9;
+    }
+    .mvm {
+    color: #b9b9b9;
+    }
+    ._65nn {
+        border-bottom: 1px solid #383838;
+    }
+    ._2ih_ {
+        color: #adadad;
+    }
+    ._1kuj:after {
+        background: #b9b9b9;
+    }
+    ._5kyi, ._1asl {
+        background: #383838;
+    }
+    ._2iel {
+        color: #737373;
+    }
+    ._fgm._sa_._1sz4:empty::after {
+    border: 1px solid #292929;
+    }
+    ._1shc {
+    border-top: solid 1px #292929;
+    }
+    ._1qf9 ._69yt {
+    border-top: 1px solid #292929;
+    }
+    ._ryt {
+    border-bottom: 1px solid #292929;
+    }
+    ._-kb div {
+    color: grey;
+    }
+    ._5po3 {
+    border-bottom: 1px solid #383838;
+    }
+    fbTimelineFeedbackActions {
+    background-color: #353535;
+    }
+    ._1t-h ._58ak {
+    border: 1px solid #383838;
+    }
+    ._15z2 ._58ak {
+    border: 1px solid #383838;
+    }
+    ._64mc {
+    border-bottom: 1px solid #383838;
+    }
+    ._2gdu {
+    border-bottom: 1px solid #383838;
+    }
+    ._64pd {
+    background-color: #1f1f1f;
+    border: 1px solid #383838;
+    }
+    ._3eqz._5cwb ._3ekx {
+    border-top: 1px solid #797979;
+    }
+    ._qa1 {
+    border: 1px solid #383838;
+    }
+    ._fgm._sa_._1sz4:empty::after {
+        border: 1px solid #292929;
+    }
+    ._1shc {
+        border-top: solid 1px #292929;
+    }
+    ._1qf9 ._69yt {
+        border-top: 1px solid #292929;
+    }
+    ._ryt {
+        border-bottom: 1px solid #292929;
+    }
+    ._-kb div {
+        color: grey;
+    }
+    ._5po3 {
+        border-bottom: 1px solid #383838;
+    }
+    .fbTimelineFeedbackActions {
+        background-color: #353535;
+    }
+    ._1t-h ._58ak {
+        border: 1px solid #383838;
+    }
+    ._15z2 ._58ak {
+        border: 1px solid #383838;
+    }
+    ._64mc {
+        border-bottom: 1px solid #383838;
+    }
+    ._2gdu {
+        border-bottom: 1px solid #383838;
+    }
+    ._64pd {
+        background-color: #1f1f1f;
+        border: 1px solid #383838;
+    }
+    ._3eqz._5cwb ._3ekx {
+        border-top: 1px solid #797979;
+    }
+    ._qa1 {
+        border: 1px solid #383838;
+    }
+    ._p6e {
+        background-color: #292929;
+        border: #383838 solid 1px;
+    }
+    ._p6f {
+        border-bottom: 1px solid #383838;
+    }
+    ._20h0 {
+        background: #383838;
+    }
+    ._3ks4 {
+        background-color: #383838;
+    }
+    ._3zio {
+        color: #adadad;
+    }
+    ._1rx8 {
+        background-color: #383838;
+        border: 1px solid #404040;
+    }
+    ._1xcu {
+        border-right: 1px solid #292929;
+    }
+    ._434j {
+        border-bottom: 1px solid #383838;
+    }
+    ._40hy {
+        border-top: 1px solid #383838;
+    }
+    ._6mki {
+        background-color: #292929;
+        border: 1px solid #292929;
+    }
+    ._43o4._4470 {
+    background-color: #292929;
+    }
+    ._1brn>._4ewu {
+    border-bottom: 1px solid #424242;
+    }
+    ._36b8 {
+    background: #383838;
+    border-bottom: 1px solid #383838;
+    }
+    ._pu- {
+    background-color: #292929;
+    border-bottom: 1px solid #424242;
+    border-top: 1px solid #424242;
+    }
+    ._9zl {
+    background-color: #292929;
+    border-bottom: 1px solid #424242;
+    }
+    ._611j, ._6qqv {
+    background: #292929;
+    border-bottom: solid 1px #424242;
+    }
+    ._611j, ._611k {
+    background: #292929;
+    border-bottom: solid 1px #424242;
+    }
+    ._1g5v+._4arz {
+    background: #292929;
+    }
+    .gb_2e {
+    background: #3c3c3c !important;
+    border: solid #3c3c3c !important;
+    }
+    .gb_me.gb_ve .gb_je .gb_if {
+    border-color: #464646;
+    }
+    ._1pey {
+    border-bottom: 1px solid #383838;
+    }
+    ._6ijr {
+    background-color: #1b1b1b;
+    }
+    ._6ijr ._6ijs {
+    background-color: #252525;
+    }
+    ._6iib {
+    border-bottom: 1px solid #353535;
+    }
+    ._6iin {
+    border-top: 1px solid #353535;
+    }
+    ._77bp {
+    background-color: #252525;
+    }
+    ._3dlg+._3dli {
+    background: #252525;
+    }
+    ._6r_e {
+    border-top: 1px solid #353535;
+    }
+    ._2o30 {
+    border-top: 1px solid #252525;
+    }
+    ._69g3 {
+    background-color: #353535;
+    }
+    ._6iiv {
+    background-color: #353535;
+    }
+    
+    /*Anatoliy.s.spb code --*/
+    }
