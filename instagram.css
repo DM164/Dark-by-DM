@@ -1147,3 +1147,25 @@
         background: #353535;
     }
     }
+
+.tlZCJ:checked~.mwD2G::before {
+    border-bottom: 2px solid #fff !important;
+    border-left: 2px solid #fff !important;
+}
+.rb9ad:not(:last-child) {
+    border-bottom: 1px solid #444 !important;
+}
+.zVbeI {
+    border-bottom-color: #444 !important;
+}
+.JfBqt {
+    border-bottom-color: #444 !important;
+}
+.g6RW6 {
+    border-radius: 0.30rem !important;
+    padding-left: 0.65rem !important;
+}
+.iXT5c {
+    background: #2f2f2f !important;
+    border-radius: 0.30rem !important;
+}
