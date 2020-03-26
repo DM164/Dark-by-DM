@@ -1546,6 +1546,12 @@
     .SI .aBz {
         box-shadow: 0 0 5px 2px #000000;
     }
+    .gb_Ve.gb_We .gb_gf {
+        color: #d9d9d9;
+    }
+    .gb_gf:not(.gb_xf)::placeholder {
+        color: #868686 !important;
+    }
     }
     
     @-moz-document url-prefix("https://mail.google.com/mail/") {
