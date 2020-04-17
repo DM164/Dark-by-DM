@@ -3103,6 +3103,13 @@
         border: 1px solid #292929;
         box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.1);
     }
+    .gb_sa svg, .gb_xc svg, .gb_0c .gb_9d, .gb_Jc .gb_9d {
+        color: #ffffff;
+        opacity: 1;
+    }
+    .Qynugf {
+        color: #b0b0b0;
+    }
     }
     
     @-moz-document url-prefix("https://accounts.google.com") {
@@ -5949,6 +5956,60 @@
         color: #bdbdbd;
     }
     /*App Google END*/
+    }
+    
+    @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
+    /* Corona Virus tab */
+    .JXRj4e, .NOK5hf, .c0L1fd {
+        color: #c4c4c4;
+    }
+    .HRfe0e {
+        color: #c4c4c4;
+    }
+    .nrXPnc {
+        color: rgba(255, 255, 255, 0.54);
+        font-size: 12px;
+    }
+    #rhs.rhs-osrp .xVtsMb {
+        border: 1px solid #292929;
+    }
+    #rhs.rhs-osrp .rKFBM {
+        border-bottom: 1px solid #292929;
+    }
+    .Y37F6d.Nn2Stf img {
+        filter: invert(88%);
+    }
+    .dU5Kl {
+        background-color: #292929;
+        border: 1px solid #292929;
+    }
+    .lC4QN, .SvJkue {
+        color: #cfcfcf;
+    }
+    td.X9Rspd.YawAOd.sTlZ4e.n1TLcc.sA6M8b {
+        background: #1f1f1f;
+    }
+    th.X9Rspd.fuYZy.YawAOd.Rpw0Qe {
+        background: #1f1f1f;
+    }
+    .sTlZ4e {
+        border-top: 1px solid #292929;
+    }
+    .vRHqb {
+        color: rgba(255, 255, 255, 0.54);
+    }
+    .fLJSwc {
+        background: #1f1f1f !important;
+    }
+    span.MjJo9 {
+        color: #cacaca !important;
+    }
+    .m0RhYb {
+        color: #f3f3f3;
+        cursor: pointer;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
     }
     
     @-moz-document url-prefix("https://accounts.google.com/signin/") {

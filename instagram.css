@@ -104,7 +104,7 @@
         .coreSpriteDesktopProfileTaggedActive,
         .glyphsSpriteUser__outline__24__grey_9,
         .glyphsSpriteSafari__outline__24__grey_9,
-        .glyphsSpriteCompass__outline__24__grey_9 {
+        .glyphsSpriteCompass__outline__24__grey_9, .glyphsSpriteForward__outline__24__grey_9, .glyphsSpriteFriend_Follow, .glyphsSpriteDirect__outline__24__grey_0, .glyphsSpriteDirect__outline__24__grey_9, .glyphsSpriteFacebook_circle__outline__24__grey_9, .glyphsSpriteFacebook_circle_filled_24, .glyphsSpriteApp_messenger__outline__24__grey_9, .glyphsSpriteApp_twitter__outline__24__grey_9 {
             filter: invert(100%);
         }
         .XajnB {
@@ -959,6 +959,19 @@
     }
     .vqgRc {
         color: #d5d5d5 !important;
+    }
+    ._01UL2 {
+        background: #323232;
+    }
+    .TOh1s {
+        background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(#323232));
+    }
+    .AvhYw {
+        background: #323232;
+        border: 1px solid #323232;
+    }
+    .uo5MA {
+        background: #323232;
     }
         /* REMINDER: This code needs some serious cleanup */
     }
