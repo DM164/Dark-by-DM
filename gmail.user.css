@@ -1516,14 +1516,23 @@
     .gb_Se {
         background: #1f1f1f;
     }
+    .gb_1e {
+        background: #232323;
+    }
+    input.gb_lf::placeholder {
+        color: #656565 !important;
+    }
+    .gb_1e.gb_2e {
+        background: rgb(30, 30, 30);
+    }
+    .gb_1e.gb_2e .gb_lf {
+        color: #adadad;
+    }
     .gb_Se.gb_Te {
      background: rgb(37, 37, 37);
     }
     .gb_Se.gb_Te .gb_df {
         color: white;
-    }
-    .gb_Te {
-        background: #252525;
     }
     .gb_Te.gb_Ue {
         background: rgb(32, 32, 32);
