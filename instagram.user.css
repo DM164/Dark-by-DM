@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.6.0
+@version        5.7.0
 @description    Dark mode for instagram
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -1189,5 +1189,11 @@
         }
         .-qQT3:hover {
             background: #353535;
+        }
+        ._6FEQj {
+            background: #383838;
+        }
+        .rSxHQ {
+            border-color: #252525;
         }
     }
