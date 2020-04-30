@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.7.0
+@version        5.8.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -1509,10 +1509,6 @@
     .gb_Te.gb_Ue .gb_ef {
         color: #a2a2a2;
     }
-    .gb_Ze {
-        background: #252525;
-        border: 1px solid transparent;
-    }
     .gb_Ze.gb_0e {
         background: rgb(37, 37, 37);
     }
@@ -1521,9 +1517,6 @@
     }
     .gb_0e.gb_1e {
         background: rgb(49, 49, 49);
-    }
-    .gb_Ve {
-        background: #252525;
     }
     .gb_ub.gb_ub {
         color: #d8d8d8;
@@ -1748,6 +1741,19 @@
 
     .VI {
         background: #000;
+    }
+    .gb_3e {
+        background: #252525;
+    }
+    input.gb_nf::placeholder {
+        color: #757575 !important;
+    }
+    .gb_3e.gb_4e {
+        background: rgb(29, 29, 29);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+    }
+    .gb_3e.gb_4e .gb_nf {
+        color: #e4e4e4;
     }
 }
 
