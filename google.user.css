@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.1.0
+@version        7.2.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -3032,7 +3032,7 @@
     .LXtP0 .ZXb90b {
         background: #ececec;
     }
-    .ZXb90b {
+    .ZXb90b, .P4Anqf {
         filter: invert(90%);
     }
     .hxpXRb {
@@ -3117,6 +3117,33 @@
     }
     .Qynugf {
         color: #b0b0b0;
+    }
+    .fWfAye {
+        background: #252525;
+        border: 1px solid #252525;
+    }
+    .Ntw4te {
+        background: #212121;
+        border-top: 1px solid #212121;
+        color: #adadad;
+    }
+    .cEPPT {
+        border-bottom: solid 1px #2d2d2d;
+    }
+    .NZmxZe {
+        color: #a5a8ad;
+    }
+    .PNyWAd {
+        color: #abafb5;
+    }
+    .jq2rAe {
+        background: #272727;
+    }
+    .BR6jBc {
+        border-top: 1px solid #3c3c3c;
+    }
+    .PfSDnb:hover {
+        background-color: #2d2d2d;
     }
     }
     
@@ -5836,9 +5863,6 @@
         background-color: #1c1c1c;
         color: #bbc1c5;
     }
-    .gb_Hb {
-        border-top: 1px solid #232323;
-    }
     .gb_ub.gb_ub {
         background-color: #1c1c1c;
     }
@@ -5850,9 +5874,6 @@
     }
     .gb_pb:hover {
         background-color: #1f1f1f;
-    }
-    .gb_fb:hover {
-        background-color: #272727;
     }
     .gb_Bb.gb_Bb {
         color: #bbbbbb;
@@ -5874,11 +5895,6 @@
     }
     .gb_l .gb_lb {
         background: #232323;
-    }
-    .gb_Fb.gb_Fb, .gb_Hb.gb_Hb {
-        background-color: #272727;
-        border: 1px solid #272727;
-        color: #d2d2d2;
     }
     .gb_wb:hover {
         background-color: #1a1a1a;
@@ -5962,6 +5978,44 @@
     .gb_o div.gb_S {
         background: #42422d;
         color: #bdbdbd;
+    }
+    .gb_xb.gb_xb {
+        background-color: #272727;
+        border: 1px solid #272727;
+    }
+    .gb_l .gb_tb {
+        color: #cecece;
+    }
+    .gb_l .gb_rb {
+        color: #fdfdfd;
+    }
+    .gb_Ob {
+        border-top: 1px solid #272727;
+    }
+    .gb_Bb.gb_Bb {
+        background-color: #1c1c1c;
+    }
+    .gb_6b {
+        color: #dadada;
+    }
+    .gb_8b {
+        color: #afafaf;
+    }
+    .gb_Jb.gb_Jb, .gb_Kb.gb_Kb {
+        background-color: #272727;
+        border: 1px solid #272727;
+    }
+    .gb_Ib {
+        border-bottom: 1px solid #252525;
+    }
+    .gb_Sb>.gb_Rb:hover {
+        background-color: #1f1f1f;
+    }
+    .hb8SAc {
+        color: #eaeaea;
+    }
+    .FqnKTc {
+        border-left: 1px solid #464646;
     }
     /*App Google END*/
     }
