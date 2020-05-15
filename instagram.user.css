@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.7.0
+@version        5.8.0
 @description    Dark mode for instagram
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -118,8 +118,8 @@
             background: #1f1f1f;
         }
         .g6RW6 {
-            background: #1f1f1f;
-            border-color: #323232;
+            background: #2b2b2b;
+            border-color: #2b2b2b;
         }
         ._0T_XJ::before {
             left: 0;
@@ -462,9 +462,6 @@
             border-radius: 3px;
             border: 1px solid #2f2f2f;
         }
-        .pbNvD {
-            background-color: #1f1f1f;
-        }
         ._914pk {
             background: #3a3a3a;
             border-bottom: solid 1px #3a3a3a;
@@ -711,9 +708,6 @@
         ._6xe7A {
             background: #2f2f2f;
         }
-        .pbNvD {
-            background-color: #2f2f2f;
-        }
         .mOBkM {
             border-color: #2f2f2f;
         }
@@ -875,9 +869,6 @@
         .-qQT3:hover {
             background-color: #232323;
         }
-        .BI4qX {
-            background: #383838;
-        }
         .oYYFH {
             background: #1f1f1f;
         }
@@ -903,12 +894,9 @@
         textarea {
             color: #f3f3f3;
         }
-        .CMoMH {
+        .X3a-9, .CMoMH {
             border: 1px solid #2f2f2f;
-        }
-        .g6RW6 {
-            background: #2f2f2f;
-            border-color: #2f2f2f;
+            background: #2b2b2b;
         }
         ._7zBYT {
             border-bottom: 1px solid #2f2f2f;
@@ -927,7 +915,7 @@
         }
         /* Fixes provided by the community over Discord */
         .-cx-PRIVATE-NavBarroot, .JyscU ._97aPb.wKWK0, .HYpXt.pbNvD .DPiy6, .bR_3v:not(.Fzijm), .ltEKP .QBXjJ, .HYpXt.pbNvD, ._5Jsao, ._1MzIy, ._3MPWk, ._8IKqe, ._8Rm4L, ._41KYi,._6xe7A, .zGtbP, .s2MYR, .AcVnq, .zMhqu, .gr27e, .jLuN9, .jdnLC, .pbNvD, .KQA-S, .Z_y-9, .bR_3v, ._lz6s  {
-            background-color: #2b2b2b;
+            background-color: #2e2e2e;
         }
         /* Fixes provided by the community over Discord --*/
         
@@ -955,10 +943,6 @@
     }
     .JfBqt {
         border-bottom-color: #444 !important;
-    }
-    .g6RW6 {
-        border-radius: 0.30rem !important;
-        padding-left: 0.65rem !important;
     }
     .iXT5c {
         background: #2f2f2f !important;
@@ -1118,10 +1102,6 @@
         ._472V_ {
             color: #bdbdbd;
         }
-        .CMoMH,
-        .X3a-9 {
-            border: 1px solid #3a3a3a;
-        }
         .X3a-9 textarea {
             color: #b2b2b2;
         }
@@ -1202,4 +1182,7 @@
         .rSxHQ {
             border-color: #252525;
         }
+    }
+    ._7kTyW, ._7kTyW:visited {
+        color: #cacaca;
     }
