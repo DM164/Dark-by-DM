@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.2.0
+@version        7.3.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -1089,15 +1089,6 @@
         line-height: inherit;
         color: #828282;
     }
-    #hdtbMenus {
-        background-color: #424242;
-        top: 0px;
-        width: 100%;
-        height: 0;
-        position: relative;
-        -webkit-transition: top 220ms ease-in-out,height 220ms ease-in-out,padding 220ms ease-in-out;
-        transition: top 220ms ease-in-out,height 220ms ease-in-out,padding 220ms ease-in-out;
-    }
     .action-menu-item a.fl {
         color: #333;
         display: block;
@@ -1585,10 +1576,6 @@
     }
     tr {
         border-bottom: 1px solid #525252 !important;
-    }
-    body.vasq #hdtbMenus.hdtb-td-o {
-        top: 0px;
-        background: #1f1f1f;
     }
     #hdtb {
         border-bottom: 1px solid #1f1f1f !important;
@@ -2415,17 +2402,6 @@
         background: #313131;
         border-bottom: 4px solid #4285f4;
     }
-    #hdtb.hdtba #hdtbMenus {
-        background-color: #1f1f1f;
-        border-bottom: 1px solid #1f1f1f;
-        padding: 7px 0px;
-    }
-    body.vasq #hdtb.hdtba #hdtbMenus.hdtb-td-o {
-        top: 0px;
-    }
-    #hdtb.hdtba #hdtbMenus {
-        top: -35px;
-    }
     .nJGrxf.FnqxG {
         color: rgba(210, 220, 230, 0.65);
     }
@@ -3191,6 +3167,16 @@
     }
     .H2SoFe~.nY5oDd {
         background: #232323;
+    }
+    .xlCbqf {
+        background-color: #1f1f1f;
+    }
+    .IspyAe {
+        color: rgba(255, 255, 255, 0.57);
+    }
+    .VqFMTc {
+        background-color: #1f1f1f;
+        color: #d2d2d2;
     }
     }
     
@@ -4271,15 +4257,6 @@
         line-height: inherit;
         color: #828282;
     }
-    #hdtbMenus {
-        background-color: #424242;
-        top: 0px;
-        width: 100%;
-        height: 0;
-        position: relative;
-        -webkit-transition: top 220ms ease-in-out,height 220ms ease-in-out,padding 220ms ease-in-out;
-        transition: top 220ms ease-in-out,height 220ms ease-in-out,padding 220ms ease-in-out;
-    }
     .action-menu-item a.fl {
         color: #333;
         display: block;
@@ -4769,7 +4746,6 @@
         border-bottom: 1px solid #525252 !important;
     }
     body.vasq #hdtbMenus.hdtb-td-o {
-        top: 13px;
         background: #1f1f1f;
     }
     #hdtb {
@@ -5594,17 +5570,6 @@
     .klitem.selected {
         background: #313131;
         border-bottom: 4px solid #4285f4;
-    }
-    #hdtb.hdtba #hdtbMenus {
-        background-color: #1f1f1f;
-        border-bottom: 1px solid #1f1f1f;
-        padding: 7px 0px;
-    }
-    body.vasq #hdtb.hdtba #hdtbMenus.hdtb-td-o {
-        top: 0px;
-    }
-    #hdtb.hdtba #hdtbMenus {
-        top: -35px;
     }
     .nJGrxf.FnqxG {
         color: rgba(210, 220, 230, 0.65);
