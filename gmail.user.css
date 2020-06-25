@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.12.0
+@version        5.13.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -2138,8 +2138,18 @@ url-prefix("https://mail.google.com/mail/") {
     .uq,
     .PK,
     .HCKRbd > .Xv,
-    .HCKRbd > .Az {
+    .HCKRbd > .Az, .aHS-YH .qj, .aHS-YW .qj {
         filter: invert(100%);
+    }
+    .YI, .YV {
+        color: #f1f4ff;
+    }
+    .YK {
+        background-color: #232323;
+        color: #dcdcdc;
+    }
+    .YK:hover {
+        background-color: #292929;
     }
     .kT {
         background: #2c2c2c;
