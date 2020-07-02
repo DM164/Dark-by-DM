@@ -13,6 +13,9 @@
     body {
         background: #1f1f1f;
     }
+    .sfbg {
+    background: #292929;
+}
     #fbar {
         background: #1f1f1f !important;
         border-top: 1px solid #1f1f1f !important;
@@ -3174,6 +3177,9 @@
         background-color: #1f1f1f;
         color: #d2d2d2;
     }
+        .sfbg {
+    background: #292929;
+}
     }
     
     @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
