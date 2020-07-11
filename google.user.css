@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.4.0
+@version        7.5.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -62,10 +62,6 @@
         -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0) !important;
         border-radius: 0 !important;
         border: none !important;
-    }
-    
-    #hdtb {
-        border-bottom: 1px solid #1f1f1f !important;
     }
     .sbsb_a {
         background: #4e4e4e;
@@ -1398,13 +1394,6 @@
         margin-left: 0;
         background: #1f1f1f;
     }
-    #hdtbSum {
-        background: #292929 !important;
-        height: 58px;
-        padding: 0;
-        position: relative;
-        z-index: 102;
-    }
     #appbar {
         background: #1f1f1f;
     }
@@ -1575,9 +1564,6 @@
     }
     tr {
         border-bottom: 1px solid #525252 !important;
-    }
-    #hdtb {
-        border-bottom: 1px solid #1f1f1f !important;
     }
     ._GSw {
         color: rgba(230, 230, 230, 0.87) !important;
@@ -1771,9 +1757,6 @@
     }
     #qbi {
         filter: invert(100%) !important;
-    }
-    #hdtb {
-        background: #1f1f1f !important;
     }
     .ab_dropdown {
         background: #292929 !important;
@@ -2958,10 +2941,6 @@
     #gb#gb a.gb_d, #gb#gb a.gb_e, #gb#gb span.gb_e {
         color: rgba(179, 179, 179, 0.87);
     }
-    .cUezCb {
-        background-color: #292929;
-        border: 1px solid #292929;
-    }
     .lyLwlc {
         color: rgba(232, 232, 232, 0.87);
     }
@@ -3120,6 +3099,41 @@
     .PfSDnb:hover {
         background-color: #2d2d2d;
     }
+    .sfbg {
+        background: #1f1f1f;
+    }
+    #hdtbSum {
+        background: #1f1f1f !important;
+    }
+    #hdtb {
+       border-bottom: 1px solid #2d2d2d !important;
+    }
+    .rhscol .I6TXqe {
+        border: 1px solid #292929;
+    }
+    .ANCoQe {
+    color: #ccc;
+    background: #292929;
+}
+    a.llgymd {
+    background: #292929;
+}
+    .DYMkgd {
+    background: #333333;
+}
+    #rhs .kp-blk {
+    border: 1px solid #292929;
+}
+    .MGqjK {
+    background-color: #292929;
+    border: 1px solid #292929;
+}
+    .LMMXP {
+    color: #d4d4d4;
+}
+    .VibNM {
+    border-top: 1px solid #1f1f1f;
+}
     }
     
     @-moz-document url-prefix("https://accounts.google.com") {
@@ -4565,13 +4579,6 @@
         margin-left: 0;
         background: #1f1f1f;
     }
-    #hdtbSum {
-        background: #292929 !important;
-        height: 58px;
-        padding: 0;
-        position: relative;
-        z-index: 102;
-    }
     #appbar {
         background: #1f1f1f;
     }
@@ -4745,9 +4752,6 @@
     }
     body.vasq #hdtbMenus.hdtb-td-o {
         background: #1f1f1f;
-    }
-    #hdtb {
-        border-bottom: 1px solid #1f1f1f !important;
     }
     ._GSw {
         color: rgba(230, 230, 230, 0.87) !important;
@@ -4938,9 +4942,6 @@
     }
     #qbi {
         filter: invert(100%) !important;
-    }
-    #hdtb {
-        background: #1f1f1f !important;
     }
     .ab_dropdown {
         background: #292929 !important;
@@ -5610,7 +5611,7 @@
         background: #292929;
     }
     .O8U6h {
-        color: #b5b5b5;
+        color: #b5b5b5 !important;
     }
     }
     
@@ -5981,62 +5982,7 @@
         border-left: 1px solid #464646;
     }
     /*App Google END*/
-    }
-    
-    @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
-    /* Corona Virus tab */
-    .JXRj4e, .NOK5hf, .c0L1fd {
-        color: #c4c4c4;
-    }
-    .HRfe0e {
-        color: #c4c4c4;
-    }
-    .nrXPnc {
-        color: rgba(255, 255, 255, 0.54);
-        font-size: 12px;
-    }
-    #rhs.rhs-osrp .xVtsMb {
-        border: 1px solid #292929;
-    }
-    #rhs.rhs-osrp .rKFBM {
-        border-bottom: 1px solid #292929;
-    }
-    .Y37F6d.Nn2Stf img {
-        filter: invert(88%);
-    }
-    .dU5Kl {
-        background-color: #292929;
-        border: 1px solid #292929;
-    }
-    .lC4QN, .SvJkue {
-        color: #cfcfcf;
-    }
-    td.X9Rspd.YawAOd.sTlZ4e.n1TLcc.sA6M8b {
-        background: #1f1f1f;
-    }
-    th.X9Rspd.fuYZy.YawAOd.Rpw0Qe {
-        background: #1f1f1f;
-    }
-    .sTlZ4e {
-        border-top: 1px solid #292929;
-    }
-    .vRHqb {
-        color: rgba(255, 255, 255, 0.54);
-    }
-    .fLJSwc {
-        background: #1f1f1f !important;
-    }
-    span.MjJo9 {
-        color: #cacaca !important;
-    }
-    .m0RhYb {
-        color: #f3f3f3;
-        cursor: pointer;
-        font-size: 13px;
-        margin-bottom: 10px;
-    }
-    }
-    
+    }    
     @-moz-document url-prefix("https://accounts.google.com/signin/") {
     .PNyWAd {
         color: #b8bfc7;
