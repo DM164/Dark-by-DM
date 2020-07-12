@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.5.0
+@version        7.6.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -3139,6 +3139,13 @@
 }
     .Ywxp6b {
     color: #dcdcdc;
+}
+    .WpKAof:hover {
+    background-color: #282828;
+}
+    .VqFMTc {
+    background-color: #1f1f1f;
+    color: #ffffff;
 }
     }
     
