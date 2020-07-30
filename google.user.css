@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.6.0
+@version        7.7.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -1385,9 +1385,6 @@
     }
     .kN9UDnqLeMg__dismiss-button {
         filter: invert(100%);
-    }
-    g-inner-card {
-        background-color: #292929 !important;
     }
     #cnt {
         min-width: 833px;
@@ -3111,41 +3108,65 @@
     .rhscol .I6TXqe {
         border: 1px solid #292929;
     }
-    .ANCoQe {
-    color: #ccc;
-    background: #292929;
-}
-    a.llgymd {
-    background: #292929;
-}
-    .DYMkgd {
-    background: #333333;
-}
-    #rhs .kp-blk {
-    border: 1px solid #292929;
-}
-    .MGqjK {
-    background-color: #292929;
-    border: 1px solid #292929;
-}
-    .LMMXP {
-    color: #d4d4d4;
-}
-    .VibNM {
-    border-top: 1px solid #1f1f1f;
-}
-    .kLhEKe {
-    background-color: #292929;
-}
-    .Ywxp6b {
-    color: #dcdcdc;
-}
-    .WpKAof:hover {
-    background-color: #282828;
-}
-    .VqFMTc {
+        .ANCoQe {
+            color: #ccc;
+            background: #292929;
+        }
+            a.llgymd {
+            background: #292929;
+        }
+            .DYMkgd {
+            background: #333333;
+        }
+            #rhs .kp-blk {
+            border: 1px solid #292929;
+        }
+            .MGqjK {
+            background-color: #292929;
+            border: 1px solid #292929;
+        }
+            .LMMXP {
+            color: #d4d4d4;
+        }
+            .VibNM {
+            border-top: 1px solid #1f1f1f;
+        }
+.kLhEKe {
     background-color: #1f1f1f;
-    color: #ffffff;
+}
+            .Ywxp6b {
+            color: #dcdcdc;
+        }
+            .WpKAof:hover {
+            background-color: #282828;
+        }
+            .VqFMTc {
+            background-color: #1f1f1f;
+            color: #ffffff;
+        }
+            .S4EObe .exaJlc {
+            background: #1f1f1f;
+        }
+            .S4EObe.YrVNK {
+            background: linear-gradient(90deg,rgb(33 33 33 / 40%) 0%,#1f1f1f 80%);
+        }
+        .exp-button {
+            background-color: #1f1f1f;
+        }
+        .AUiS2 {
+            border: 1px solid #333333;
+        }
+    .VuHq7 {
+    border: 1px solid #292929;
+}
+    .KjyTCd {
+    border-top: 1px solid #292929;
+}
+    .uVGhGc {
+    background-color: #131313;
+}
+    .BP43u {
+    color: rgb(255 255 255 / 62%);
 }
     }
     
@@ -4012,7 +4033,7 @@
         cursor: default;
         color: #c3c3c3 !important;
     }
-    .commercial-unit-desktop-rhs .mn-dwn-arw._KGe, ._wtf svg, .gws-local-map__map-expando img {
+    .commercial-unit-desktop-rhs .mn-dwn-arw._KGe, ._wtf svg, .gws-local-map__map-expando img, .daicon, .XCKyNd {
         filter: invert(100%) !important;
     }
     ._TJg {
@@ -4585,7 +4606,7 @@
         filter: invert(100%);
     }
     g-inner-card {
-        background-color: #292929 !important;
+        background-color: #1f1f1f !important;
     }
     #cnt {
         min-width: 833px;
@@ -5626,6 +5647,41 @@
     .O8U6h {
         color: #b5b5b5 !important;
     }
+            .eLpAgf {
+        color: #cecece !important;
+    }
+    .tKfMXd {
+        color: #b9b9b9;
+    }
+        .MXl0lf {
+    background: #1f1f1f;
+    border: 1px solid #292929;
+}
+        .ep3ODe .lgJJud {
+    border: 1px solid #292929;
+}
+        .f3LoEf {
+    color: #e2e2e2;
+}
+        .ep3ODe .eEz1Rd {
+    border-top: 1px solid #292929;
+}
+        .EASEnb {
+    border: 1px solid #292929;
+}
+        .MXl0lf:hover {
+    background: #212121;
+}
+        .HSryR .qIshu {
+    border-bottom: solid 1px #292929;
+}
+        .YIMUJb {
+            filter: invert(1);
+        }
+        .xt8Uw {
+    color: #fff;
+}
+
     }
     
     @-moz-document url-prefix("https://accounts.google.com") {
@@ -5681,7 +5737,7 @@
     #irc_bg {
         background-color: #2a2a2a;
     }
-    }
+}
     
     @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
     /*Anatoliy.s.spb code*/
