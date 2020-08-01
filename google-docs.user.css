@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Office Suite by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        1.4.2
+@version        1.4.3
 @description    Dark mode for Google Office Suite
 @author         Denis Mignanelli
 ==/UserStyle== */
@@ -1178,6 +1178,12 @@ background: #343434;
 .docs-gm .navigation-item .navigation-item-level-0 {
     color: rgb(216, 220, 223);
 }
+        .gb_af {
+        background: #1f1f1f;
+    }
+    header.gb_sa {
+        background: #292929 !important;
+    }
 }
 
 @-moz-document url-prefix("https://docs.google.com/") {
