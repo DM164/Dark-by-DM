@@ -4,6 +4,7 @@
 @version        5.19.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
+@homepage       https://dark-by-dm-website.now.sh/
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
     .aic {
