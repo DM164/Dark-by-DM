@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.10.0
+@version        5.10.1
 @description    Dark mode for instagram
 @author         Denis Mignanelli
-@homepage       https://dark-by-dm-website.now.sh/
+@homepageURL    https://dark-by-dm-website.now.sh/
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.instagram") {
     /*login*/
