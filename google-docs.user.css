@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Office Suite by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        1.5.5
+@version        1.6.5
 @description    Dark mode for Google Office Suite
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1193,6 +1193,17 @@ background: #343434;
 }
     .gb_af.gb_bf .gb_uf {
     color: #d4d4d4;
+}
+    #formula-bar {
+    background: #2b2b2b;
+    border-bottom: 1px solid #353535;
+}
+    #t-formula-bar-input .cell-input {
+    color: white !important;
+    background: #2b2b2b !important;
+}
+    .default-formula-text-color {
+    color: white;
 }
 }
 
