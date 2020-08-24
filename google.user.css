@@ -5,6 +5,7 @@
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
+@preprocessor stylus
 ==/UserStyle== */
 
 @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
