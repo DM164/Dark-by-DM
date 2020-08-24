@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Office Suite by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        1.6.5
+@version        1.6.6
 @description    Dark mode for Google Office Suite
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1204,6 +1204,30 @@ background: #343434;
 }
     .default-formula-text-color {
     color: white;
+}
+.docs-homescreen-gb-container div {
+    background: #2f2f2f;
+}
+.gb_af {
+    background: #2f2f2f;
+    border: 1px solid #1f1f1f;
+}
+    .gb_af.gb_bf {
+    background: #2f2f2f;
+}
+    .outline-refresh #navigation-widget-bottom-fade {
+    background: -moz-linear-gradient(rgba(255,255,255,0) 0%,rgb(49 49 49) 100%);
+    background: -webkit-linear-gradient(rgba(255,255,255,0) 0%,rgb(49 49 49) 100%);
+    background: linear-gradient(rgba(255,255,255,0) 0%,rgb(49 49 49) 100%);
+}
+    .outline-refresh .location-indicator-highlight.navigation-item {
+    color: #659fff;
+}
+    .outline-refresh .navigation-item, .outline-refresh .navigation-widget-empty-content {
+    color: #ababab;
+}
+    .outline-refresh .navigation-item.goog-button-hover {
+    color: #ffffff;
 }
 }
 
