@@ -6,6 +6,8 @@
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
 @preprocessor stylus
+
+@var checkbox default_links 'Default Links' 0
 ==/UserStyle== */
 
 @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
@@ -87,7 +89,6 @@
     .mblink b {
         color: #4285f4 !important;
     }
-    a:link,
     .w,
     #prs a:visited,
     #prs a:active,
@@ -97,9 +98,18 @@
     .tbotu {
         color: #afafaf !important;
     }
-    .mblink:visited,
-    a:visited {
+    if (!default_links) {
+        a:link {
+            color: #afafaf !important;
+        }
+    }
+    .mblink:visited {
         color: #ea4335;
+    }
+    if (!default_links) {
+        a:visited {
+            color: #ea4335;
+        }
     }
     ._Fmb,
     ._Fmb:hover,
@@ -1193,9 +1203,15 @@
         font-weight: bolder;
         text-align: left;
     }
-    a, a:visited {
+    a{
         color: #2895ff;
         text-decoration: none;
+    }
+    if (!default_links) {
+        a:visited {
+            color: #2895ff;
+            text-decoration: none;
+        }
     }
     .sbico {
         display: inline-block;
@@ -3322,7 +3338,6 @@
     .mblink b {
         color: #4285f4 !important;
     }
-    a:link,
     .w,
     #prs a:visited,
     #prs a:active,
@@ -3332,9 +3347,18 @@
     .tbotu {
         color: #afafaf !important;
     }
-    .mblink:visited,
-    a:visited {
+    if (!default_links) {
+        a:link {
+            color: #afafaf !important;
+        }
+    }
+    .mblink:visited {
         color: #ea4335;
+    }
+    if (!default_links) {
+        a:visited {
+             color: #ea4335;
+        }
     }
     ._Fmb,
     ._Fmb:hover,
@@ -4415,9 +4439,15 @@
         font-weight: bolder;
         text-align: left;
     }
-    a, a:visited {
+    a {
         color: #2895ff;
         text-decoration: none;
+    }
+    if (!default_links) {
+        a:visited {
+            color: #2895ff;
+            text-decoration: none;
+        }
     }
     .sbico {
         display: inline-block;
