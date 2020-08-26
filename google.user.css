@@ -3198,6 +3198,15 @@
     .khjlM .dyAbMb, .pQ1qie .dyAbMb {
         filter: invert(1);
     }
+    .v3jTId {
+        color: #d2d2d2;
+    }
+    .Cy9gW {
+        color: #a9a9a9;
+    }
+    .XxrEYe {
+        color: #8d9398;
+    }
 }
 
 @-moz-document url-prefix("https://accounts.google.com") {
@@ -6070,5 +6079,14 @@
     .gb_Te {
         background: #1f1f1f;
         border: 1px solid transparent;
+    }
+    .v3jTId {
+        color: #d2d2d2;
+    }
+    .Cy9gW {
+        color: #a9a9a9;
+    }
+    .XxrEYe {
+        color: #8d9398;
     }
 }
