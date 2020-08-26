@@ -5779,6 +5779,9 @@
     .FqnKTc {
         border-left: 1px solid #4c4c4c;
     }
+    .uzjuFc {
+        border: 1px solid #333333;
+    }
 }
 
 @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
