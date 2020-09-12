@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.11.1
+@version        5.11.0
 @description    Dark mode for instagram
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -974,6 +974,15 @@
     .tHaIX {
         background-color: #1f1f1f;
         /* background-color: rgba(var(--b3f,250,250,250),1); */
+    }
+    a.k8Vux, a.k8Vux:visited {
+        color: #dadada;
+    }
+    .emXTk::before {
+        border-bottom: 1px solid #2f2f2f;
+    }
+    .snXeX {
+        border-bottom: solid 1px #585858;
     }
         /* REMINDER: This code needs some serious cleanup */
     }
