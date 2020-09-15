@@ -995,7 +995,16 @@
     }
     ._8A5w5, a._8A5w5, a._8A5w5:visited {
         color: #ffffff;
-        }
+    }
+    .J09pf:not(:first-child):before, .J09pf:not(:last-child):after {
+        background-color: #404040;
+    }
+    .b5k4S:not(:first-child):before {
+        background-color: #404040;
+    }
+    .b5k4S, a.b5k4S, a:visited.b5k4S {
+        color: #dedede;
+    }
         /* REMINDER: This code needs some serious cleanup */
     }
 
