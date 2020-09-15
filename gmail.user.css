@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.20.1
+@version        5.21.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1440,9 +1440,6 @@
     .gb_Pe.gb_Qe {
         background: rgb(70, 70, 70);
     }
-    .gb_Jb:hover {
-        background: #282828;
-    }
     .gb_Xb {
         color: #fff;
     }
@@ -1479,9 +1476,6 @@
     .gb_o {
         color: rgba(222, 222, 222, 0.87);
     }
-    .gb_F {
-        background: #2c2c2c;
-    }
     #gb a.gb_F,
     #gb a.gb_F:visited,
     #gb a.gb_F:active,
@@ -1512,9 +1506,6 @@
     }
     .gb_0e.gb_1e {
         background: rgb(49, 49, 49);
-    }
-    .gb_ub.gb_ub {
-        color: #d8d8d8;
     }
     .gb_fb > svg.gb_gb,
     .gb_vb > svg.gb_wb,
@@ -1645,10 +1636,6 @@
     }
     .Az.AM {
         border-top: 1px solid #2b2b2b;
-    }
-    .gb_vb.gb_vb {
-        background-color: #1c1c1c;
-        color: #d2d2d2;
     }
     input.gb_lf::placeholder {
         color: #656565 !important;
@@ -1786,9 +1773,6 @@
         border: 1px #2b2b2b solid;
         color: #cecece;
     }
-    .gb_af {
-        background: #1f1f1f;
-    }
     input.gb_uf::placeholder {
         color: #989898 !important;
     }
@@ -1839,6 +1823,13 @@
     .Wo, .Wo-A8, .Wq, .Wq-A8 {
         filter: invert(1);
     }
+    .iS {
+        background-color: #232323;
+        border: 1px solid #2b2b2b;
+    }
+    .iU {
+        color: #d2d2d2;
+    }
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/") {
@@ -1869,192 +1860,6 @@
         filter: invert(1);
     }
 }
-
-@-moz-document url-prefix("https://mail.google.com/mail/") {
-    /*Account Google*/
-    .gb_F {
-        background: #1c1c1c;
-        border: 1px solid #1c1c1c;
-        border-color: rgb(28, 28, 28);
-    }
-    .gb_l .gb_hb {
-        color: #eef1f9;
-    }
-    .gb_l .gb_jb {
-        color: #a9a9a9;
-    }
-    .gb_nb.gb_nb {
-        background-color: #232323;
-        border: 1px solid #232323;
-    }
-    .gb_nb:hover {
-        background-color: #292929;
-    }
-    .gb_l .gb_3b {
-        color: #b9b9b9;
-    }
-    .gb_Ob {
-        border-top: 1px solid #252525;
-    }
-    .gb_l .gb_ob {
-        color: #f7f7f7;
-    }
-    .gb_l .gb_qb {
-        color: #a0a7af;
-    }
-    .gb_yb.gb_yb {
-        background-color: #1c1c1c;
-        color: #bbc1c5;
-    }
-    .gb_ub.gb_ub {
-        background-color: #1c1c1c;
-    }
-    .gb_ub:hover {
-        background-color: #1e1e1e;
-    }
-    .gb_Nb > .gb_Mb:hover {
-        background-color: #1e1e1e;
-    }
-    .gb_pb:hover {
-        background-color: #1f1f1f;
-    }
-    .gb_Bb.gb_Bb {
-        color: #bbbbbb;
-    }
-    .gb_Bb.gb_Bb {
-        background-color: #1c1c1c;
-    }
-    .gb_nb.gb_nb {
-        color: #B9B9B8;
-    }
-    .gb_Bb {
-        border-bottom: 1px solid #252525;
-        border-top: 1px solid #252525;
-    }
-    .gb_mb > svg.gb_nb,
-    .gb_zb > svg.gb_Ab,
-    .gb_Bb > svg.gb_Cb {
-        color: #c1c8d2;
-        fill: currentColor;
-    }
-    .gb_Eb {
-        border-bottom: 1px solid #292929;
-        border-top: 1px solid #292929;
-    }
-    .gb_l .gb_lb {
-        background: #232323;
-    }
-    .gb_wb:hover {
-        background-color: #1a1a1a;
-    }
-    .gb_Pb > .gb_Ob:hover {
-        background-color: #202020;
-    }
-    .gb_mb:hover {
-        background-color: #292929;
-    }
-    .gb_Cb.gb_Cb {
-        color: #cecece;
-    }
-    .gb_Ob > .gb_Nb:hover {
-        background-color: #171717;
-    }
-    .gb_Ob > .gb_Nb:focus,
-    .gb_Ob > .gb_Nb:hover:focus {
-        background-color: #1a1a1a;
-    }
-    .gb_l .gb_4b {
-        color: #d4d4d4;
-    }
-    .gb_Ib {
-        border-top: 1px solid #2b2b2b;
-        border-bottom: 1px solid #252525;
-    }
-    .gb_6b {
-        color: #bbc2c7;
-    }
-    .gb_xb.gb_xb {
-        background-color: #292929;
-        border: 1px solid #292929;
-        color: #c3c4c5;
-    }
-    .gb_l .gb_rb,
-    .gb_Jb.gb_Jb {
-        color: #e4e7ef;
-    }
-    .gb_l .gb_tb {
-        color: #a5a7a9;
-    }
-    .gb_Jb.gb_Jb,
-    .gb_Kb.gb_Kb {
-        background-color: #292929;
-        border: 1px solid #292929;
-    }
-    .gb_Sb > .gb_Rb:hover {
-        background-color: #1f1f1f;
-    }
-    /*Account Google END*/
-    /*App Google*/
-    .gb_J {
-        background: #1c1c1c;
-    }
-    #gb#gb a.gb_f,
-    #gb#gb a.gb_g,
-    #gb#gb span.gb_g {
-        color: rgba(185, 185, 185, 0.87);
-    }
-    a.gb_K.gb_bg {
-        background: #1f1f1f;
-    }
-    .gb_k:not(.gb_l):hover .gb_t {
-        background: rgb(28, 28, 28);
-    }
-    .gb_Sa {
-        border-bottom-color: #1c1c1c;
-    }
-    .gb_t {
-        color: rgba(222, 222, 222, 0.87);
-    }
-    #gb a.gb_K,
-    #gb a.gb_K:visited,
-    #gb a.gb_K:active,
-    #gb a.gb_L,
-    #gb a.gb_L:visited {
-        color: rgba(226, 226, 226, 0.87);
-    }
-    .gb_k:hover a {
-        border: 1px solid #353535;
-    }
-    .gb_l.gb_k:hover a {
-        background: #232323!important;
-    }
-    .gb_L {
-        border-bottom: 1px solid #313131 !important;
-        left: 28px !important;
-        width: 264px !important;
-    }
-    .gb_F.gb_H.gb_l {
-        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
-    }
-    .gb_H.gb_l::-webkit-scrollbar-thumb {
-        background: #272727;
-        width: 8px !important;
-    }
-    a.gb_O,
-    a.gb_P {
-        color: #5fa4ff;
-    }
-    .gb_o div.gb_S {
-        background: #42422d;
-    }
-    .gb_P:hover,
-    .gb_O:hover {
-        background-color: #2f2f2f;
-        border-color: #2f2f2f;
-    }
-    /*App Google END*/
-}
-
 @-moz-document url-prefix("https://hangouts.google.com/"),
 url-prefix("https://mail.google.com/mail/") {
     /*Hangouts OUTDATED (HANGOUTS IS GOING TO BE SHUTDOWN IN 2020)*/
@@ -2394,9 +2199,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .gb_Jd.gb_xe .gb_pe .gb_Be {
         background-color: #464646;
-    }
-    .gb_vb {
-        background: #1c1c1c;
     }
     .gb_Ob {
         color: #9f9f9f;
