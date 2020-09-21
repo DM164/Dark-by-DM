@@ -2150,6 +2150,16 @@ url-prefix("https://mail.google.com/mail/") {
     .gb_Re.gb_Se .gb_cf {
         color: #dfdfdf;
     }
+    .gb_5e {
+        background: #1f1f1f;
+    }
+    input.gb_pf::placeholder {
+        color: dimgrey !important;
+    }
+    .gb_5e.gb_6e {
+        background: rgb(31 31 31);
+        box-shadow: 0 1px 1px 0 rgb(0 0 0 / 30%), 0 1px 3px 1px rgb(0 0 0 / 15%);
+    }
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/") {
