@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.11.0
+@version        7.12.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -5885,6 +5885,11 @@
         color: #c3c3c3;
     }
     /*Anatoliy.s.spb code --*/
+    .IsZvec {
+        color: #909090;
+    }.hb8SAc {
+        color: #cccccc;
+    }
 }
 
 @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
