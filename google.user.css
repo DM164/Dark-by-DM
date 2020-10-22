@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.13.0
+@version        7.14.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -3207,6 +3207,16 @@
     .XxrEYe {
         color: #8d9398;
     }
+    .vXQmIe {
+        background-color: #292929;
+    }
+    .I6TXqe {
+        background: #1f1f1f;
+    }
+    .cUezCb {
+        background-color: #1f1f1f;
+        border: 1px solid #1f1f1f;
+    }
 }
 
 @-moz-document url-prefix("https://accounts.google.com") {
@@ -3263,6 +3273,13 @@
     .VqFMTc {
         background-color: #1f1f1f;
         color: #d2d2d2;
+    }
+    .Lj9fsd {
+        background: #1f1f1f;
+    }
+    .YcWSDf {
+        background-color: #353535;
+        border-color: #2c4e87;
     }
 }
 
@@ -6096,13 +6113,5 @@
     }
     .XxrEYe {
         color: #8d9398;
-    }
-    header .gb_4d{
-        background-color: #2b2b2b;
-        color: #efefef;
-    }
-    .gb_7d.gb_0e .gb_Re .gb_5e {
-        background-color: #1f1f1f;
-        border: 1px solid transparent;
     }
 }
