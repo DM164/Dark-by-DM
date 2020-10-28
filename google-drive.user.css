@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Drive by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        3.3.0
+@version        3.3.1
 @description    Dark mode for Google Drive
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1640,6 +1640,15 @@
     }
     .gb_6e.gb_7e {
         background: rgb(29 29 29);
+    }
+    .L202Xe, .s55KNe .jGNTYb {
+        border: 1px solid #2b2b2b;
+    }
+    .Ccie2c:focus .L202Xe, .Ccie2c.Pb .L202Xe {
+        border: 1px solid #525252;
+    }
+    .a-U-xc>.a-da-fc-Ug::after, .a-U-xc>.a-da-ji::before, .a-U-xc>.a-da-Ul::before {
+        border-bottom: 1px solid #2b2b2b;
     }
 }
 @-moz-document url-prefix("https://drive.google.com/") {
