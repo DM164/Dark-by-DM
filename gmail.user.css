@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.25.0
+@version        6.0.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -63,22 +63,11 @@
         border-top: 1px solid #717171;
     }
     .aHS-bnw .qj,
-    .TO > .aHS-bu1 .qj,
-    .aHS-bnu .qj,
-    .aHS-bnq .qj,
-    .aHS-bns .qj,
-    .aHS-bnv .qj,
-    .aHS-aHO .qj,
-    .aHS-aHP .qj,
-    .aHS-bnx .qj,
-    .CL::before,
-    div.TH,
-    .aJZ .qj,
-    div.TH {
+    .TO > .aHS-bu1 .qj, .aHS-bnu .qj, .aHS-bnq .qj, .aHS-bns .qj, .aHS-bnv .qj, .aHS-aHO .qj, .aHS-aHP .qj, .aHS-bnx .qj, .CL::before, div.TH, .aJZ .qj, div.TH, .qr {
         filter: invert(100%);
     }
     .qr {
-        border-color: #fff;
+        border-color: black;
     }
     .qj[style] {
         opacity: 0.2;
@@ -1115,6 +1104,10 @@
         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
     }
+    .gb_ta svg, .gb_Fc svg, .gb_2c .gb_he, .gb_Rc .gb_he {
+        color: #d5d5d5;
+        opacity: 1;
+    }
     /* header*/
     /*search box*/
     .gssb_e {
@@ -1854,6 +1847,8 @@
     .la-s, .la-t {
         background: #222;
     }
+    /* Experimental */
+    /*Experimental END */
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/") {
@@ -2168,6 +2163,12 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .gb_6e {
         background: #1f1f1f;
+    }
+    .gb_xe img.gb_va {
+        content: url(https://darkbydm.now.sh/files/icons/gmaillogo2020.png);
+    }
+    .nZ>.aHS-bnt .qj, .aHS-bnt .qj::before {
+        background-image: url(https://darkbydm.now.sh/files/icons/inboxicon.png);
     }
 }
 
