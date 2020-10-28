@@ -10,7 +10,7 @@
     /*login*/
         .gr27e {
             background-color: #2f2f2f;
-            border: 1px solid #2f2f2f;
+            border: 3px solid #2f2f2f;
         }
         .bTref {
             color: #a9a9a9;
@@ -361,7 +361,7 @@
         #react-root,
         body,
         html {
-            background: #1f1f1f;
+            background: #0699a8;
         }
         .fx7hk {
             border-top: 1px solid #3a3a3a;
