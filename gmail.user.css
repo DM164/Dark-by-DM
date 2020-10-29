@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        6.0.1
+@version        5.27.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -63,11 +63,22 @@
         border-top: 1px solid #717171;
     }
     .aHS-bnw .qj,
-    .TO > .aHS-bu1 .qj, .aHS-bnu .qj, .aHS-bnq .qj, .aHS-bns .qj, .aHS-bnv .qj, .aHS-aHO .qj, .aHS-aHP .qj, .aHS-bnx .qj, .CL::before, div.TH, .aJZ .qj, div.TH, .qr {
+    .TO > .aHS-bu1 .qj,
+    .aHS-bnu .qj,
+    .aHS-bnq .qj,
+    .aHS-bns .qj,
+    .aHS-bnv .qj,
+    .aHS-aHO .qj,
+    .aHS-aHP .qj,
+    .aHS-bnx .qj,
+    .CL::before,
+    div.TH,
+    .aJZ .qj,
+    div.TH {
         filter: invert(100%);
     }
     .qr {
-        border-color: black;
+        border-color: #fff;
     }
     .qj[style] {
         opacity: 0.2;
@@ -1104,10 +1115,6 @@
         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
     }
-    .gb_ta svg, .gb_Fc svg, .gb_2c .gb_he, .gb_Rc .gb_he {
-        color: #d5d5d5;
-        opacity: 1;
-    }
     /* header*/
     /*search box*/
     .gssb_e {
@@ -1847,8 +1854,6 @@
     .la-s, .la-t {
         background: #222;
     }
-    /* Experimental */
-    /*Experimental END */
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/") {
@@ -2021,14 +2026,7 @@ url-prefix("https://mail.google.com/mail/") {
         color: rgba(255, 255, 255, 0.54);
         background: #353535;
     }
-    .vE,
-    .Cyynpc,
-    .xE:hover > button,
-    .xE > button,
-    .uq,
-    .PK,
-    .HCKRbd > .Xv,
-    .HCKRbd > .Az, .aHS-YH .qj, .aHS-YW .qj {
+    .vE, .Cyynpc, .xE:hover > button, .xE > button, .uq, .PK, .HCKRbd > .Xv, .HCKRbd > .Az, .aHS-YH .qj, .aHS-YW .qj, .bhZ:not(.bym) .Y5 .YV, .bhZ:not(.bym) .Zk .YV {
         filter: invert(100%);
     }
     .YI, .YV {
@@ -2163,12 +2161,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .gb_6e {
         background: #1f1f1f;
-    }
-    img.gb_va {
-        content: url(https://darkbydm.now.sh/files/icons/gmaillogo2020.png);
-    }
-    .nZ>.aHS-bnt .qj, .aHS-bnt .qj::before {
-        background-image: url(https://darkbydm.now.sh/files/icons/inboxicon.png);
     }
 }
 
