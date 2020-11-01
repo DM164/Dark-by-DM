@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.28.0
+@version        5.29.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -453,15 +453,6 @@
         background: #2b2b2b;
         color: #c3c3c3;
     }
-    .aeQ {
-        height: 1370px;
-        opacity: 1;
-        background: #1f1f1f;
-    }
-    .aeR .aeQ,
-    .aeP .aeQ {
-        background: #1f1f1f
-    }
     .ajj.ajl:before {
         box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
         border-bottom: 1px solid #232323;
@@ -685,6 +676,9 @@
     .gb_fa {
         background: #2b2b2b !important;
         border: 1px solid #2b2b2b !important;
+    }
+    .aeR .aeQ, .aeP .aeQ {
+        background: #5d5d5d;
     }
 
     /*Addons*/
@@ -1932,6 +1926,7 @@
         border-bottom: 1px solid #292929;
     }
     /*Support windows end*/
+    /*--*/
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/"), url-prefix("https://www.google.com/tools/feedback/") {
@@ -2032,6 +2027,9 @@ url-prefix("https://mail.google.com/mail/") {
     body.td .kr {
         color: #dcdcdc;
     }
+    .NLK4Q {
+        color: #cccccc;
+    }
     .td.iM3vKf .Bb .lt {
         color: #d0d0d0;
     }
@@ -2045,11 +2043,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .aND {
         height: 100%;
-        background: #1f1f1f;
-    }
-    .aeQ {
-        height: 8px;
-        opacity: 1;
         background: #1f1f1f;
     }
     .aeN .akc,
@@ -2104,19 +2097,21 @@ url-prefix("https://mail.google.com/mail/") {
         background: #1f1f1f;
     }
     .T-P {
-        background-color: #424242;
+        background-color: #252525;
         border: 1px solid;
-        border-color: #424242 #424242 #424242;
+        border-color: #252525;
     }
-    .ahRshd {
-        background: #424242;
+    div.Yo {
+        background: #252525;
+    }
+    .a07 .a06 {
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%), 0 2px 6px 2px rgb(0 0 0 / 15%);
     }
     .ahRshd .wxPY {
         color: #d0d0d0;
     }
     .VQ7Kyb {
-        border: 1px solid #313131;
-        background: #313131;
+        border: 1px solid #2b2b2b;
     }
     .YAtp9b {
         color: #bfbfbf;
@@ -2131,23 +2126,19 @@ url-prefix("https://mail.google.com/mail/") {
     body.muPwQb .X.B .mnIV2e {
         filter: invert(100%);
     }
-    .ewttPb {
-        border-top: 1px solid #313131;
-        background: #313131;
-    }
     .hAr4Ab,
     .Ug61eb {
         color: #a0c2ff;
         text-decoration: none;
     }
     .Qcw3ab {
-        border-top: 1px solid #6b6b6b;
+        border-top: 1px solid #333;
     }
     .bi97z {
         color: #d2d2d2;
     }
     .bi97z:hover:before {
-        background-color: #3f3f3f;
+        background-color: #252525;
     }
     .My {
         background-color: #232323;
@@ -2179,7 +2170,7 @@ url-prefix("https://mail.google.com/mail/") {
     .aHS-YH .qj,
     .aHS-YW .qj,
     .bhZ:not(.bym) .Y5 .YV,
-    .bhZ:not(.bym) .Zk .YV {
+    .bhZ:not(.bym) .Zk .YV, .bhZ:not(.bym) .aND .YI {
         filter: invert(100%);
     }
     .YI,
@@ -2210,9 +2201,6 @@ url-prefix("https://mail.google.com/mail/") {
         filter: invert(100%);
         opacity: 1;
     }
-    .Eg {
-        background: #1f1f1f;
-    }
     .TlvAYc {
         color: rgba(255, 255, 255, 0.61);
     }
@@ -2239,13 +2227,11 @@ url-prefix("https://mail.google.com/mail/") {
         border-top: 1px solid #323232;
         background-color: #323232;
     }
-    .Yo .z-b-G,
-    .Lo .vo > button,
-    .vr .z-b-G {
-        background-color: #404040;
-        background-image: -webkit-linear-gradient(top, #404040, #404040);
+    .Yo .z-b-G, .Lo .vo > button, .vr .z-b-G {
+        background-color: #303030;
+        background-image: -webkit-linear-gradient(top, #282828, #282828);
         background-image: linear-gradient(top, #404040, #404040);
-        border: 1px solid #404040;
+        border: 1px solid #303030;
         color: #d3d3d3;
     }
     .uJ .Ih {
@@ -2270,6 +2256,9 @@ url-prefix("https://mail.google.com/mail/") {
         background-image: linear-gradient(top, #5b5b5b, #5b5b5b);
         color: #ededed;
         border: 1px solid #5b5b5b;
+    }
+    .ewttPb {
+        border-top: 1px solid #292929;
     }
     .H3qADd {
         color: rgba(212, 212, 212, 0.87);
@@ -2380,6 +2369,65 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .gb_Ob {
         color: #9f9f9f;
+    }
+    .aOY59 {
+        background-color: #232323;
+        border-bottom: solid 1px #2f2f2f;
+    }
+    .rNeXgf {
+        color: #c1c1c1;
+    }
+    .Bb:focus, .Bb:hover {
+        background: #232323;
+    }
+    .mD .Bb .om>div>div {
+        color: #b3b3b3;
+    }
+    .Bb.ee .Rp, .Bb .Rp {
+        color: #8e8e8e;
+    }
+    .xJpgab .M-ea p, .tly4Vb, .yeJIie {
+        color: #bbbbbb;
+    }
+    .xJpgab .M-ea, .aXofXb {
+        color: #e8e8e8;
+    }
+    .Eg12ac {
+        border-bottom: 1px solid #333333;
+    }
+    .T-P-atE .T-P-atD, .T-P-atF .T-P-atD {
+        border-color: transparent #353535;
+        top: -9px;
+    }
+    .T-P-atE .T-P-atC, .T-P-atF .T-P-atC {
+        border-color: transparent #1f1f1f;
+        top: -8px;
+    }
+    .c-i {
+        background: #282828;
+        border: 1px solid rgb(48 48 48);
+    }
+    .c-k, .c-Fr, .c-jq {
+        color: #d2d2d2;
+    }
+    .c-k-Tb, .c-k-p {
+        background-color: #2f2f2f;
+        border-color: #2f2f2f;
+    }
+    .c-k-Tb .c-k-t, .c-k-p .c-k-t {
+        color: #fbfbfb;
+    }
+    .gB {
+        padding-right: 5px;
+        background: #1f1f1f;
+        color: #d6d6d6;
+        outline: none;
+    }
+    input.tF.gB.Xp.kG.ea-Ga-ea::placeholder {
+        color: #717171;
+    }
+    .dBcHLc {
+        color: rgb(255 255 255 / 54%);
     }
 }
 @-moz-document url-prefix("https://calendar.google") {
