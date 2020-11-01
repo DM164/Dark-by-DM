@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.27.0
+@version        5.28.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1002,10 +1002,6 @@
     .h0 {
         color: #cfd5dd;
     }
-    body {
-        font-size: 13px;
-        background: #202020;
-    }
     .aiv .am > .ao5 {
         color: #d4d4d4;
     }
@@ -1114,6 +1110,13 @@
         background: rgb(64, 64, 64);
         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+    }
+    .gb_ta svg,
+    .gb_Fc svg,
+    .gb_2c .gb_he,
+    .gb_Rc .gb_he {
+        color: #d5d5d5 !important;
+        opacity: 1;
     }
     /* header*/
     /*search box*/
@@ -1730,11 +1733,14 @@
     }
     .gb_6e.gb_7e {
         background: rgb(31, 31, 31);
+        box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%), 0 1px 3px 1px rgb(0 0 0 / 20%);
     }
     .gb_6e.gb_7e .gb_qf {
         color: white;
     }
-    .gb_qf::placeholder, .SV, .OB {
+    .gb_qf::placeholder,
+    .SV,
+    .OB {
         filter: invert(100%);
     }
     .gb_7e {
@@ -1814,10 +1820,13 @@
     .UG {
         background: #1f1f1f;
     }
-    .Wr>.Wn {
+    .Wr > .Wn {
         color: #c3c3c3;
     }
-    .Wo, .Wo-A8, .Wq, .Wq-A8 {
+    .Wo,
+    .Wo-A8,
+    .Wq,
+    .Wq-A8 {
         filter: invert(1);
     }
     .iS {
@@ -1851,12 +1860,81 @@
     .la-i .la-m {
         border-color: #222;
     }
-    .la-s, .la-t {
+    .la-s,
+    .la-t {
         background: #222;
     }
+    /*Support window */
+    .ghp-iconTextComponent:hover,
+    .ghp-iconTextComponent:focus,
+    .ghp-button:not(:disabled):hover,
+    .ghp-button:not(:disabled):focus, .ghp-button:not(:disabled):hover, .ghp-button:not(:disabled):focus {
+        background: #272727;
+    }
+    .ghp-dialog {
+        background: #212121 !important;
+    }
+    .ghp-header-searchFormContainer {
+        background-color: #333;
+    }
+    .ghp-header {
+        background-color: #2b2b2b;
+    }
+    .ghp-iconTextComponent-label {
+        color: #bdbdbd;
+    }
+    .ghp-searchResults .ghp-iconTextComponent-label {
+        border-bottom: 1px solid #272a2c;
+    }
+    .ghp-header-searchBox {
+        color: #e0e0e0;
+    }
+    .ghp-separator {
+        border-top: 1px solid #272a2c;
+    }
+    input#search-box::placeholder {
+        color: white;
+    }
+    .ghp-header-searchIcon.ghpv-loaded,
+    .search-query-icon,
+    .ghp-externalLink.ghpv-black::after {
+        filter: invert(1);
+        opacity: .6;
+    }
+    .ghp-autocompleteGlass {
+        background: #2b2b2b;
+    }
+    .sbsb_a {
+        background: #333;
+    }
+    .sbsb_d {
+        background: #383838;
+    }
+    .ghp-autocomplete-label {
+        color: #c1c1c1;
+    }
+    .sbsb_e {
+        background-color: #464646;
+    }
+    input.gb_jf {
+        color: #e0e0e0 !important;
+    }
+    input.gb_jf::placeholder {
+        color: #9a9a9a !important;
+    }
+    .gb_Be .gb_8c img {
+        display: none;
+    }
+    .ghp-ghostResult-bar {
+        background: #272727;
+    }
+    .ghp-ghostResult-text {
+        border-bottom: 1px solid #292929;
+    }
+    /*Support windows end*/
 }
 
-@-moz-document url-prefix("https://mail.google.com/mail/") {
+@-moz-document url-prefix("https://mail.google.com/mail/"), url-prefix("https://www.google.com/tools/feedback/") {
     /*Icons*/
     .aIf-aLf {
         background-image: url(https://dark-by-dm9.webnode.it/_files/200000081-41e3341e35/200/inbox_white_20dp.png);
@@ -1882,6 +1960,70 @@
     .Ad,
     .NQ .afM {
         filter: invert(1);
+    }
+    
+    /* Support and updates */
+    .hcfe {
+        background-color: #232323;
+        color: #c7c7c7;
+    }
+    .hcfe h1, .hcfe h2, .hcfe h3, .hcfe h4, .hcfe h5 {
+        color: #e8e8e8;
+    }
+    .cc .zippy {
+        border-top: .0625rem solid #2b2b2b;
+        color: #46a0fd;
+    }
+    .cc .zippy-last {
+        border-bottom: .0625rem solid #2b2b2b;
+    }
+    .cc .zippy-focus {
+        background-color: #252525;
+    }
+    .hcfe {
+        background-color: #1f1f1f;
+        color: #d3d3d3;
+    }
+    .cc .example {
+        background-color: #222d25;
+        color: #c3c3c3;
+    }
+    .hcfe h1, .hcfe h2, .hcfe h3, .hcfe h4, .hcfe h5 {
+        color: #f1f1f1;
+    }
+    body.ng-scope {
+        background: #1f1f1f !important;
+    }
+    .as .title {
+        color: #dcdcdc;
+    }
+    .sub-article-container.shaded {
+        border-top: .0625rem solid #333333;
+    }
+    .ghp-separator {
+        border-top: 1px solid #333333;
+    }
+    .as .as-button {
+        background-color: #212121;
+        border: .0625rem solid #2b2b2b;
+        color: #3f90fb;
+    }
+    .cc .nice-table td {
+        background-color: #232323;
+        border-color: #2d2d2d;
+    }
+    .cc .nice-table th {
+        background-color: #232323;
+    }
+    .cc .nice-table th, .cc .nice-table td {
+        border: .0625rem solid #2d2d2d;
+    }
+    .cc .nice-table tr:nth-of-type(2n) td {
+        background-color: #1d1d1d;
+        border-right-color: #2d2d2d;
+    }
+    .cc .subtext {
+        color: #b3b3b3;
     }
 }
 @-moz-document url-prefix("https://hangouts.google.com/"),
@@ -2026,10 +2168,22 @@ url-prefix("https://mail.google.com/mail/") {
         color: rgba(255, 255, 255, 0.54);
         background: #353535;
     }
-    .vE, .Cyynpc, .xE:hover > button, .xE > button, .uq, .PK, .HCKRbd > .Xv, .HCKRbd > .Az, .aHS-YH .qj, .aHS-YW .qj, .bhZ:not(.bym) .Y5 .YV, .bhZ:not(.bym) .Zk .YV {
+    .vE,
+    .Cyynpc,
+    .xE:hover > button,
+    .xE > button,
+    .uq,
+    .PK,
+    .HCKRbd > .Xv,
+    .HCKRbd > .Az,
+    .aHS-YH .qj,
+    .aHS-YW .qj,
+    .bhZ:not(.bym) .Y5 .YV,
+    .bhZ:not(.bym) .Zk .YV {
         filter: invert(100%);
     }
-    .YI, .YV {
+    .YI,
+    .YV {
         color: #f1f4ff;
     }
     .YK {
@@ -2162,10 +2316,6 @@ url-prefix("https://mail.google.com/mail/") {
     .gb_6e {
         background: #1f1f1f;
     }
-}
-
-@-moz-document url-prefix("https://mail.google.com/mail/") {
-    /* code lines created by Anatoliy */
     .ajj:before {
         border-bottom: 1px solid #464646;
     }
@@ -2208,12 +2358,13 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .t9 {
         background-color: #232323;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%), 0 2px 6px 2px rgb(0 0 0 / 15%);
     }
     .ua {
         color: #9f9f9f;
     }
     .ua.bk5 {
-        background-color: #464646;
+        background-color: #292929;
     }
     .gb_oe.gb_la {
         background: #333333;
@@ -2222,7 +2373,7 @@ url-prefix("https://mail.google.com/mail/") {
         background-color: #333333;
     }
     .ub {
-        border-top: 1px solid #5d5d5d;
+        border-top: 1px solid #2b2b2b;
     }
     .gb_Jd.gb_xe .gb_pe .gb_Be {
         background-color: #464646;
@@ -2230,15 +2381,7 @@ url-prefix("https://mail.google.com/mail/") {
     .gb_Ob {
         color: #9f9f9f;
     }
-    /* code lines created by Anatoliy -- */
-    input.gb_jf {
-        color: #e0e0e0 !important;
-    }
-    input.gb_jf::placeholder {
-        color: #9a9a9a !important;
-    }
 }
-
 @-moz-document url-prefix("https://calendar.google") {
     .cOoA8d {
         border-bottom: 1px solid #2b2b2b;
