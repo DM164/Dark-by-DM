@@ -1,35 +1,23 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.29.0
+@version        5.30.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
-    .aic {
-        margin: 0;
-        overflow: hidden;
-        background: #1f1f1f;
+    .aic, .aeN .ajl, .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .bkK, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe, .bAw, .if, .UG, .aeN {
+        background: #1f1f1f !important;
     }
-    .aeN .ajl {
-        background: #1f1f1f;
-    }
-    .TO .nU > .n0,
-    .TO.NQ .nU > .n0,
-    .TO.nZ .nU > .n0,
-    .ah9 > .CJ,
-    .n3 > .CL > .CK {
+    .TO .nU > .n0, .TO.NQ .nU > .n0, .TO.nZ .nU > .n0, .ah9 > .CJ, .n3 > .CL > .CK, .a3s, .g6 {
         color: #d6d6d6;
+    }
+    .aHS-bnw .qj, .TO > .aHS-bu1 .qj, .aHS-bnu .qj, .aHS-bnq .qj, .aHS-bns .qj, .aHS-bnv .qj, .aHS-aHO .qj, .aHS-aHP .qj, .aHS-bnx .qj, .CL::before, div.TH, .aJZ .qj, div.TH, .air .G-asx, .n4 .G-asx, .J-Ks-KO .J-N-Jo, .asi .J-Ks-KO::before, .asa, .G-Ni .T-Jo, .G-Ni .G-asx, td.apU > .T-KT.aXw::before, .aKD, .zA > td.oZ-x3, .brq, .bru, .brs, .brv, .brr, .G-atb .aqJ .amD, .iG .h0 .adg, .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo, .d-Na-N.d-Na-KO .d-Na-Jo, .d-Na-J3, .J-KU-KO .bvn, .bvn, .acX > .L3.aap, .bi4 > .T-KT, .mL, .mI, .J-JN-M-I-JG, .ams.bkG::before, .ams.bkH::before {
+        filter: invert(100%);
     }
     .wT > .n3 .byl:first-child .aim:first-child .nZ {
         background-color: #2d2d2d;
-    }
-    .G-atb::before {
-        background: #1f1f1f;
-    }
-    .aAA.J-KU-Jg-K9 {
-        background: #1f1f1f;
     }
     .aRs {
         color: #d0d0d0;
@@ -51,31 +39,12 @@
         background-color: #2b2b2b;
         color: #dcdcdc;
     }
-    .l2 {
-        padding-left: 24px;
-        background: #1f1f1f;
-    }
     .brC-aT5-aOt-Jw {
         background-color: #1f1f1f;
         border-left: 1px solid #1f1f1f;
     }
     .brC-aT5-aOt-ato-Kp-Jw::before {
         border-top: 1px solid #717171;
-    }
-    .aHS-bnw .qj,
-    .TO > .aHS-bu1 .qj,
-    .aHS-bnu .qj,
-    .aHS-bnq .qj,
-    .aHS-bns .qj,
-    .aHS-bnv .qj,
-    .aHS-aHO .qj,
-    .aHS-aHP .qj,
-    .aHS-bnx .qj,
-    .CL::before,
-    div.TH,
-    .aJZ .qj,
-    div.TH {
-        filter: invert(100%);
     }
     .qr {
         border-color: #fff;
@@ -93,10 +62,6 @@
     }
     .TO.NQ {
         background: #383838 !important;
-    }
-    .air .G-asx,
-    .n4 .G-asx {
-        filter: invert(100%);
     }
     .n6 .ah9:hover {
         background: #383838;
@@ -117,21 +82,8 @@
     .J-awr {
         color: #d6dde6;
     }
-    .J-Ks-KO .J-N-Jo,
-    .asi .J-Ks-KO::before {
-        filter: invert(100%);
-    }
     .J-Kh {
         border-top: 1px solid #2d2d2d;
-    }
-    .asa {
-        filter: invert(100%);
-    }
-    .G-Ni .T-Jo {
-        filter: invert(100%);
-    }
-    .G-Ni .G-asx {
-        filter: invert(100%);
     }
     .afL .J-M-Jz {
         border-right: 1px solid #696969;
@@ -161,45 +113,18 @@
     .zF {
         color: #e4e4e4;
     }
-    td.apU > .T-KT.aXw::before {
-        opacity: .40;
-        filter: invert(100%);
-    }
-    .aKD {
-        filter: invert(100%);
-    }
     .y2 {
         color: #b4bbc3;
-    }
-    .zA > td.oZ-x3 {
-        filter: invert(100%);
     }
     .yO > .xW {
         color: #aab2bb;
     }
     .a2q .cf {
         border: solid #edb802;
-        border-width: 0 1px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    }
-    .brq,
-    .bru,
-    .brs,
-    .brv,
-    .brr {
-        filter: invert(100%);
-    }
-    .G-atb .aqJ .amD,
-    .iG .h0 .adg {
-        margin-left: 20px;
-        filter: invert(100%);
     }
     .aBS .d-Na-J3.d-Na-JX-ax3.d-Na-JX {
         opacity: 0.7;
-        filter: invert(100%);
-    }
-    .G-asx,
-    .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo {
         filter: invert(100%);
     }
     .Dj {
@@ -208,15 +133,9 @@
     .T-I-ax7.T-I-JE .T-I-J3 {
         opacity: 0.7;
     }
-    .bkK {
-        overflow: hidden;
-        width: 100%!important;
-        background: #1f1f1f;
-    }
     .a2q {
         background: none;
         border-bottom: 1px solid #232323;
-        padding-bottom: 7px;
         font-size: 16px;
     }
     .d-Na-JG-M {
@@ -227,9 +146,6 @@
     .d-Na-N {
         color: #bdbdbd;
     }
-    .d-Na-N.d-Na-KO .d-Na-Jo {
-        filter: invert(100%);
-    }
     .d-Na-N-JW {
         background: #292929 !important;
         color: white !important;
@@ -237,14 +153,8 @@
     .d-Na-axR {
         border-top: 1px solid #2f2f2f;
     }
-    .d-Na-J3 {
-        filter: invert(100%);
-    }
     .aRq {
         color: #77a8ff;
-    }
-    .aeJ {
-        background: #1f1f1f;
     }
     .ma,
     .l9,
@@ -271,13 +181,6 @@
     #nlpt {
         background-color: #1f1f1f;
     }
-    .l6 {
-        padding-right: 14px;
-    }
-    .J-KU-KO .bvn,
-    .bvn {
-        filter: invert(100%);
-    }
     .J-KU-JW:not(.aDO) .aKz {
         color: #cacaca !important;
     }
@@ -296,19 +199,8 @@
     .go {
         color: #b9b9b9;
     }
-    .acX > .L3.aap,
-    .bi4 > .T-KT {
-        filter: invert(100%);
-    }
-    .mL,
-    .mI {
-        filter: invert(100%);
-    }
     .J-JN-M-I-Jm {
         color: #cacaca;
-    }
-    .J-JN-M-I-JG {
-        filter: invert(100%);
     }
     .adI .B9 {
         color: #70a4ff;
@@ -333,17 +225,10 @@
     .iv .g3 {
         color: #b6bec7;
     }
-    .ams.bkG::before,
-    .ams.bkH::before {
-        filter: invert(100%);
-    }
     .amn > .ams {
         color: #c9d3e0;
         box-shadow: inset 0 0 0 1px #232323;
         background: #232323;
-    }
-    .hk > .L3 {
-        filter: invert(100%);
     }
     .acX > .L3.aaq {
         filter: invert(100%);
@@ -433,7 +318,6 @@
         color: #d2d2d2 !important;
     }
     .eV > .oj .vO {
-        padding: 2px 0;
         color: #ececec !important;
     }
     .azX {
@@ -516,7 +400,6 @@
         opacity: 0.8;
     }
     .gb_9e.gb_lf {
-        padding-left: 2px;
         filter: invert(100%);
     }
     .asd {
@@ -557,11 +440,9 @@
     /*advertisement -- */
     .a2q .cf {
         border: solid #423d2b;
-        border-width: 0 1px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
     .asc {
-        padding: 8px 8px 0;
         color: #dedede;
     }
     .asg .A0 {
@@ -639,10 +520,6 @@
     td {
         color: white;
     }
-    .a3s,
-    .g6 {
-        color: #d6d6d6;
-    }
     .az9 {
         color: #d0d0d0;
     }
@@ -705,7 +582,6 @@
     .brC-by0-P6-I-JX {
         display: block;
         fill: #c3cad2;
-        margin: auto;
     }
     .brC-brG-JG-I.brC-brG-JG-I-JW {
         background-color: #4a4a4a;
@@ -739,12 +615,11 @@
         color: white;
     }
     .Ar {
-        border-color: #434343 #434343 #434343 #434343;
+        border-color: #434343;
         background-color: #434343;
         color: #e8e8e8;
     }
     .Vb .Ak {
-        height: 160px;
         background: #434343;
     }
     .Ar {
@@ -810,9 +685,6 @@
         background: #1f1f1f;
         border-color: #1f1f1f;
         color: white;
-        border-top-width: 0px;
-        border-left-width: 0px;
-        padding-left: 6px;
     }
     .bv8 {
         background: #464646;
@@ -832,7 +704,6 @@
         color: #d0d0d0;
     }
     .gb_nf.gb_tf .gb_bf {
-        padding-left: 2px;
         filter: invert(100%);
     }
     p {
@@ -850,17 +721,10 @@
         background-color: #1f1f1f;
     }
     .cwtltbl {
-        transition: height .2s;
-        -moz-transition: height .2s;
-        -o-transition: height .2s;
-        -webkit-transition: height .2s;
         color: #d0d0d0;
         display: table;
         font-size: 30px;
-        height: 100%;
-        position: absolute;
         table-layout: fixed;
-        width: 100%;
         z-index: 0;
     }
     .brC-bsf-aT5-aOt .aT5-aOt-I-KO .aT5-aOt-I-JX-Jw {
@@ -897,7 +761,6 @@
         color: #bdc1c6;
     }
     .gb_of.gb_uf .gb_cf {
-        padding-left: 2px;
         filter: invert(100%);
         color: black;
     }
@@ -916,10 +779,6 @@
     .HM .et {
         background: #464646 !important;
     }
-    .iY .Bu,
-    .wR > .amn {
-        background: #1f1f1f;
-    }
     .bra {
         box-shadow: inset 0 0 0 1px #232323;
         color: #77a4e0;
@@ -930,12 +789,10 @@
     }
     .adI {
         background-color: #232323;
-        border-radius: 8px;
     }
     .G-Ni.G-aE:not(:first-child) {
         -webkit-box-shadow: inset -1px 0 0 rgba(100, 121, 143, 0.122);
         box-shadow: inset -1px 0 0 rgba(136, 148, 161, 0.57);
-        margin-right: 20px;
     }
     div.ajR {
         background-color: #232323 !important;
@@ -959,7 +816,6 @@
     }
     .btC {
         background: #232323;
-        border-radius: 0px 0px 6px 6px;
     }
     .bv8 {
         background: #232323;
@@ -984,11 +840,6 @@
     }
     .HM .et {
         background: #232323 !important;
-    }
-    .adB .aoI {
-        margin-right: -8px;
-        padding: 0 8px 0 16px;
-        border-radius: 14px;
     }
     .GQ {
         background-color: #232323;
@@ -1061,7 +912,6 @@
     /*details tab end*/
     .bum {
         color: #a8a8a8;
-        margin: 0;
         text-align: center;
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -1117,7 +967,6 @@
     .gssb_e {
         background-color: #232323 !important;
         border: solid #232323 !important;
-        border-width: 1px 0 0 0 !important;
         border-top-color: #444 !important;
     }
     .gb_Ue.gb_Ve {
@@ -1192,12 +1041,6 @@
     .azX {
         background: #232323 !important;
     }
-    .iC {
-        background: #1f1f1f;
-    }
-    .SI .aBz {
-        background: #1f1f1f;
-    }
     .Tm .ya {
         background-color: rgba(63, 63, 63, 0.871);
         color: #dfdfdf;
@@ -1214,7 +1057,6 @@
         opacity: .70;
     }
     .gb_Pf.gb_Vf .gb_Ef {
-        padding-left: 2px;
         filter: invert(100%);
     }
     .TK .TO:active,
@@ -1252,8 +1094,6 @@
         color: #d8d8d8;
     }
     .gb_Kd.gb_Td .gb_Hd .gb_De {
-        margin-left: 0;
-        margin-right: 0;
         background: #343434;
         border: solid 1px #343434;
     }
@@ -1272,9 +1112,6 @@
     }
     .gb_oe.gb_la {
         background: #2e2e2e;
-    }
-    .gb_oe.gb_la.gb_pe {
-        background: #1f1f1f;
     }
     .gb_ja div.gb_la {
         background: #232323;
@@ -1357,7 +1194,6 @@
         background: #4c4c4c;
         color: white;
         border: 2px solid #4c4c4c;
-        border-radius: 15px;
         box-shadow: 1px 1px 5px 0px #252525a1;
     }
     .r7 td.r5,
@@ -1418,9 +1254,6 @@
     }
     .aRc {
         border-left: 1px solid #232323;
-    }
-    #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe {
-        background: #1f1f1f;
     }
     .aYv {
         background: #2c2c2c;
@@ -1708,10 +1541,6 @@
     .brC-dA-I.aT5-aOt-I-Jp .aT5-aOt-I-JX-atM {
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
     }
-    .bAw {
-        background: #1f1f1f;
-    }
-
     .VI {
         background: #000;
     }
@@ -1805,14 +1634,8 @@
         border-left: 1px solid #2b2b2b;
         border-right: 1px solid #2b2b2b;
     }
-    .if {
-        background: #1f1f1f;
-    }
     .ac2 {
         color: #fff;
-    }
-    .UG {
-        background: #1f1f1f;
     }
     .Wr > .Wn {
         color: #c3c3c3;
@@ -1927,6 +1750,9 @@
     }
     /*Support windows end*/
     /*--*/
+    .gb_5e {
+        background: #1f1f1f;
+    }
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/"), url-prefix("https://www.google.com/tools/feedback/") {
@@ -2042,12 +1868,10 @@ url-prefix("https://mail.google.com/mail/") {
         color: #aaa;
     }
     .aND {
-        height: 100%;
         background: #1f1f1f;
     }
     .aeN .akc,
     .oo {
-        margin-right: 0;
         background: #1f1f1f;
     }
     body.td .kr {
@@ -2072,16 +1896,9 @@ url-prefix("https://mail.google.com/mail/") {
     .td.Hm .Bb:focus {
         background: #2e2e2e;
     }
-    .yd > button.Bb,
-    .yd > .Bb > .R8jgRe,
-    .yd > .Bb > .a63pHf {
-        padding-top: 2px;
-        padding-bottom: 6px;
-    }
     body .azewN {
         background: transparent;
         border-bottom: 1px solid #515151;
-        margin-bottom: 0;
     }
     .J-KU.a65 .aj2,
     .J-KU-KO.a65 .aj2,
@@ -2209,7 +2026,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .Sn .jHldnd {
         border: 8px solid #232323;
-        right: -8px;
     }
     .Mu {
         color: #c3c3c3;
@@ -2241,7 +2057,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .XX {
         border-top: 1px solid #595959;
-        margin-top: 11px;
     }
     .z-b-G {
         background-color: #464646;
@@ -2287,7 +2102,6 @@ url-prefix("https://mail.google.com/mail/") {
     .T-P-atE .T-P-atC,
     .T-P-atF .T-P-atC {
         border-color: transparent #313131;
-        top: -8px;
     }
     .aJ7 .aI0 {
         border-color: #232323;
@@ -2397,7 +2211,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .T-P-atE .T-P-atD, .T-P-atF .T-P-atD {
         border-color: transparent #353535;
-        top: -9px;
     }
     .T-P-atE .T-P-atC, .T-P-atF .T-P-atC {
         border-color: transparent #1f1f1f;
@@ -2418,10 +2231,8 @@ url-prefix("https://mail.google.com/mail/") {
         color: #fbfbfb;
     }
     .gB {
-        padding-right: 5px;
         background: #1f1f1f;
         color: #d6d6d6;
-        outline: none;
     }
     input.tF.gB.Xp.kG.ea-Ga-ea::placeholder {
         color: #717171;
@@ -2536,7 +2347,6 @@ url-prefix("https://mail.google.com/mail/") {
     .Nf-jm-jg .Nf-Gd-Ro-So .Nf-gn-Qc-qb {
         background: #1a1a1a;
         border-color: #1a1a1a;
-        border-radius: 7px;
         color: white;
     }
     .Nf-Po-Qo-y,
@@ -2544,7 +2354,6 @@ url-prefix("https://mail.google.com/mail/") {
     .Nf-jm-jg .Nf-Gd-Ro-So .Nf-Po-Qo {
         background: #282828;
         border: 1px solid #282828;
-        border-radius: 7px;
     }
     .d-u-Q {
         background-color: #383838;
@@ -2554,7 +2363,6 @@ url-prefix("https://mail.google.com/mail/") {
         background-image: -o-linear-gradient(top, #383838, #383838);
         background-image: linear-gradient(top, #383838, #383838);
         border: 1px solid #383838;
-        border-radius: 7px;
     }
     .d-u-Q .d-u-x,
     .d-u .d-u-x {
@@ -2579,7 +2387,6 @@ url-prefix("https://mail.google.com/mail/") {
         background-image: -o-linear-gradient(top, #3a3a3a, #3a3a3a);
         background-image: linear-gradient(top, #3a3a3a, #3a3a3a);
         border: 1px solid #3079ed;
-        border-radius: 7px;
     }
     .Nf-jg-Gd-oh .Nf-eb-Kc,
     .Nf-jm-jg .Nf-Gd-Ro-So .Nf-eb-Kc {
