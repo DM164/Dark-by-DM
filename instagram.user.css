@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.13.0
+@version        5.14.0
 @description    Dark mode for instagram
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1006,6 +1006,18 @@
         color: #dedede;
     }
         /* REMINDER: This code needs some serious cleanup */
+    .TNiR1 {
+        color: #ececec;
+    }
+    .Dw_ki {
+        border-bottom: 1px solid #313131;
+    }
+    .GdeD6 {
+        box-shadow: 0px 0px 10px #00000042;
+    }
+    .L3NKy, a.L3NKy, a.L3NKy:visited {
+    border: 1px solid #404040;
+}
     }
 
     @-moz-document url-prefix("https://www.instagram.deleteme") {
