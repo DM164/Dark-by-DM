@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.15.0
+@version        7.16.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -3108,9 +3108,6 @@
     #hdtbSum {
         background: #1f1f1f !important;
     }
-    #hdtb {
-        border-bottom: 1px solid #2d2d2d !important;
-    }
     .rhscol .I6TXqe {
         border: 1px solid #292929;
     }
@@ -3216,6 +3213,15 @@
     .cUezCb {
         background-color: #1f1f1f;
         border: 1px solid #1f1f1f;
+    }
+    .WTHmze {
+        color: #ffffff;
+    }
+    header, .s8GCU {
+        background: #1f1f1f !important;
+    }
+    #hdtb {
+        border-bottom: 1px solid #333333 !important;
     }
 }
 
