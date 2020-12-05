@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.18.0
+@version        7.19.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -2324,15 +2324,6 @@
         font-size: 18px;
         line-height: 20px;
     }
-    .yOo6xe.RSXc9 {
-        border-top: 1px solid rgb(56, 56, 56);
-        margin-top: 15px;
-    }
-    .yOo6xe {
-        background-color: #383838;
-        border-bottom: 1px solid rgb(56, 56, 56);
-        padding: 15px 0;
-    }
     .vk_gbt {
         border-top: 1px solid #3c3c3c !important;
         background: #292929;
@@ -3213,6 +3204,22 @@
     }
     .XrZwB img {
         filter: invert(1);
+    }
+    .tsp-trm {
+        background-color: #212121;
+    }
+    .tsp-ftlg {
+        color: #ffffffa8;
+    }
+    .tsp-tb {
+        border-top: 1px solid #212121;
+    }
+    .tsp-tz {
+        border-top: 1px solid #212121;
+        color: #ffffff8a;
+    }
+    .tsp-bb {
+        border-bottom: 1px solid #212121;
     }
 }
 
@@ -5567,14 +5574,15 @@
         font-size: 18px;
         line-height: 20px;
     }
-    .yOo6xe.RSXc9 {
-        border-top: 1px solid rgb(56, 56, 56);
-        margin-top: 15px;
-    }
     .yOo6xe {
-        background-color: #383838;
-        border-bottom: 1px solid rgb(56, 56, 56);
-        padding: 15px 0;
+        background-color: #1f1f1f;
+        border-bottom: 1px solid rgb(41 41 41);
+    }
+    .yOo6xe.RSXc9{
+        border-top: 1px solid rgb(41 41 41);
+    }
+    .jyC4xe {
+        color: rgb(255 255 255 / 54%);
     }
     .vk_gbt {
         border-top: 1px solid #3c3c3c !important;
