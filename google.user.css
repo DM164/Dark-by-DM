@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.17.0
+@version        7.18.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -146,10 +146,6 @@
         width: 100%;
         min-width: 980px;
     }
-    .vk_c, .vk_cxp {
-        background-color: #3c3c3c !important;
-        position: relative;
-    }
     ._wYb {
         background-color: #2f2f2f !important;
     }
@@ -166,11 +162,6 @@
         text-decoration: none;
         height: 20px;
         margin-left: 0px;
-    }
-    .tw-menu-btn:hover .tw-menu-btn-image:first-child {
-        background-color: #353535;
-        border-color: #353535;
-        border-radius: 2px;
     }
     .yg51vc {
     background: #1f1f1f;
@@ -664,19 +655,6 @@
     .vk_dgy {
         color: #bfbebe !important;
     }
-    #tw-source-text-ta {
-        margin-bottom: 0px;
-        position: absolute;
-        top: 20px;
-        z-index: 2;
-        color: #b9b9b9 !important;
-    }
-    .tw-menu-btn {
-        display: inline-block;
-        height: 40px;
-        color: rgba(206, 204, 204, 0.54) !important;
-        width: 40px;
-    }
     ._vEo {
         padding-top: 10px;
         padding-bottom: 4px;
@@ -1113,6 +1091,18 @@
         white-space: nowrap;
         z-index: 3;
         transition: opacity 0.218s;
+    }
+    #tw-source-text-container .tw-ta, #tw-source-rmn-container .tw-ta {
+        color: white;
+    }
+    .vCOSGb {
+        border-bottom: 1px solid #252525;
+    }
+    .hhB0V {
+        color: #ffffff;
+    }
+    .bHOicb {
+        border-top: 1px solid #252525;
     }
     ._FEt {
         position: absolute;
@@ -2494,10 +2484,6 @@
     .DHcWmd {
         background-color: #4c4c4c;
     }
-    .tw-menu-btn:not(.tw-menu-btn-disabled):hover .tw-menu-btn-image:first-child {
-        background-color: #2e2e2e;
-        border-color: #2e2e2e;
-    }
     #irc_bg {
         background-color: #2a2a2a;
     }
@@ -2582,13 +2568,6 @@
     }
     .xtSCL {
         border-top: 1px solid #545454;
-    }
-    .tw-src-ltr #tw-source-text-ta {
-        display: none;
-    }
-    .gt-is, .tw-bilingual-marked, #tw-target:not(.NJv8Fd) #kAz1tf {
-        background-color: #292929;
-        color: rgba(255, 255, 255, .87);
     }
     .QXzCSe {
         color: rgba(255, 255, 255, 0.87);
@@ -3226,6 +3205,15 @@
     #hdtb {
         border-bottom: 1px solid #333333 !important;
     }
+    #tw-target:not(.NJv8Fd) #kAz1tf, .tw-bilingual-marked {
+        background-color: #252525;
+    }
+    .U9URNb {
+        color: #ffffff;
+    }
+    .XrZwB img {
+        filter: invert(1);
+    }
 }
 
 @-moz-document url-prefix("https://accounts.google.com") {
@@ -3428,10 +3416,6 @@
         width: 100%;
         min-width: 980px;
     }
-    .vk_c, .vk_cxp {
-        background-color: #3c3c3c !important;
-        position: relative;
-    }
     ._wYb {
         background-color: #2f2f2f !important;
     }
@@ -3448,11 +3432,6 @@
         text-decoration: none;
         height: 20px;
         margin-left: 0px;
-    }
-    .tw-menu-btn:hover .tw-menu-btn-image:first-child {
-        background-color: #353535;
-        border-color: #353535;
-        border-radius: 2px;
     }
     ._dMq {
         background: #2f2f2f !important;
@@ -3932,19 +3911,6 @@
     }
     .vk_dgy {
         color: #bfbebe !important;
-    }
-    #tw-source-text-ta {
-        margin-bottom: 0px;
-        position: absolute;
-        top: 20px;
-        z-index: 2;
-        color: #b9b9b9 !important;
-    }
-    .tw-menu-btn {
-        display: inline-block;
-        height: 40px;
-        color: rgba(206, 204, 204, 0.54) !important;
-        width: 40px;
     }
     ._vEo {
         padding-top: 10px;
@@ -4702,9 +4668,6 @@
     }
     ._Vpc {
         color: #dcdcdc !important;
-    }
-    .vk_c, .vk_cxp {
-        background-color: #292929 !important;
     }
     .tw-lang-selector-wrapper {
         border: 1px solid #292929 !important;
