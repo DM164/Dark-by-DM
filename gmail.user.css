@@ -1,10 +1,13 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.30.0
+@version        5.31.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
+@preprocessor stylus
+
+@var checkbox highlight_unread 'Stronger Highlight | Unread Messages' 0
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
     .aic, .aeN .ajl, .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .bkK, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe, .bAw, .if, .UG, .aeN {
@@ -1172,16 +1175,6 @@
     .nY {
         background: #2e2e2e!important;
     }
-    .zE {
-        color: #c7c7c7;
-        background: rgb(35, 35, 35);
-        border-left: 3px solid #4b70ab;
-    }
-    .yO {
-        background: #212121;
-        color: #e8e8e8;
-        border-left: solid 3px#2b2b2b;
-    }
     .alB,
     .alD {
         border: 1px solid #3e3e3e;
@@ -1444,9 +1437,6 @@
     .J-KU-Jg-Zq .J-KU-KO,
     .J-KU-Jg-Zq .J-KU {
         background-color: #232323!important;
-    }
-    .Ze {
-        background: #272727;
     }
     .gb_Ue.gb_Ve {
         -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
@@ -1752,6 +1742,23 @@
     /*--*/
     .gb_5e {
         background: #1f1f1f;
+    }
+    .yO {
+        background: #0f0f0f;
+        color: #e8e8e8;
+        border-left: solid 3px #2b2b2b;
+    }
+    if (!highlight_unread) {
+        .yO {
+            background: #1b1b1b;
+            color: #e8e8e8;
+            border-left: solid 3px #2b2b2b;
+        }
+    }
+    .zE {
+        color: #c7c7c7;
+        background: rgb(31 31 31);
+        border-left: 3px solid #4b70ab;
     }
 }
 
@@ -2086,9 +2093,6 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .IxxFkc {
         fill: #e6e6e6;
-    }
-    div.Yo {
-        background: #1f1f1f;
     }
     .eh.c-P-p {
         background-color: #313131;
