@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.31.0
+@version        5.32.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -1740,8 +1740,9 @@
     }
     /*Support windows end*/
     /*--*/
-    .gb_5e {
+    .gb_6e.gb_7e {
         background: #1f1f1f;
+        box-shadow: 0 1px 1px 0 #0000002e, 0 1px 3px 1px #00000014;
     }
     .yO {
         background: #0f0f0f;
@@ -1759,6 +1760,16 @@
         color: #c7c7c7;
         background: rgb(31 31 31);
         border-left: 3px solid #4b70ab;
+    }
+    .gb_4e {
+        background: #1f1f1f;
+    }
+    input.gb_of::placeholder {
+        color: #949494 !important;
+    }
+    .gb_4e.gb_5e {
+        background: rgb(29 29 29);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .13), 0 1px 3px 1px rgba(0, 0, 0, .12);
     }
 }
 
@@ -1853,10 +1864,17 @@
     .cc .subtext {
         color: #b3b3b3;
     }
+    .help-panel-search-result:focus, .help-panel-search-result:hover {
+        background-color: #232323;
+    }
+    .help-panel-search-result__text {
+        border-bottom: .0625rem solid #333;
+        color: #dadada;
+    }
 }
 @-moz-document url-prefix("https://hangouts.google.com/"),
 url-prefix("https://mail.google.com/mail/") {
-    /*Hangouts OUTDATED (HANGOUTS IS GOING TO BE SHUTDOWN IN 2020)*/
+    /*Hangouts OUTDATED (HANGOUTS IS GOING TO BE SHUTDOWN IN 2020 ...this crap is still here...)*/
     body.td .kr {
         color: #dcdcdc;
     }
