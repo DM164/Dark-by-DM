@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.24.0
+@version        7.25.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -323,6 +323,9 @@
     .sr__link, .sr__link:link, .sr__link:visited {
         color: #909090 !important;
         text-decoration: none;
+    }
+    .minidiv .RNNXgb {
+        background: #333333;
     }
     .goog-menu {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.31) !important;
