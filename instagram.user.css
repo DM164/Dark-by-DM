@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.14.0
+@version        5.15.0
 @description    Dark mode for instagram
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -358,10 +358,8 @@
         .WidCF::before {
             background-color: #383838;
         }
-        #react-root,
-        body,
-        html {
-            background: #0699a8;
+        #react-root, body, html {
+            background: #1f1f1f;
         }
         .fx7hk {
             border-top: 1px solid #3a3a3a;
