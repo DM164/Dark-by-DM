@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        7.26.0
+@version        7.27.0
 @description    Dark mode for Google Search
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -78,13 +78,7 @@
     a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
         color: #4285f4 !important;
     }
-    .w,
-    #prs a:visited,
-    #prs a:active,
-    .q:active,
-    .q:visited,
-    .kl:active,
-    .tbotu {
+    .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu {
         color: #afafaf !important;
     }
     if (!default_links) {
@@ -103,10 +97,7 @@
     .RNNXgb:hover, .sbfc .RNNXgb {
         background-color: #2f2f2f;
     }
-    ._Fmb,
-    ._Fmb:hover,
-    ._Fmb.selected,
-    ._Fmb.selected:hover {
+    ._Fmb, ._Fmb:hover, ._Fmb.selected, ._Fmb.selected:hover {
         background-color: #2f2f2f !important;
     }
     .spch {
@@ -165,8 +156,8 @@
         margin-left: 0px;
     }
     .yg51vc {
-    background: #1f1f1f;
-}
+        background: #1f1f1f;
+    }
     ._dMq {
         background: #2f2f2f !important;
         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -797,7 +788,7 @@
     .knowledge-webanswers_table__webanswers-table th {
         color: #dcdcdc !important;
     }
-    a{
+    a {
         color: #2895ff;
     }
     if (!default_links) {
@@ -1059,7 +1050,7 @@
     ._Z7 .g:last-child, ._rod .g:last-child, ._thf .g:last-child {
         background: #292929;
     }
-    .kp-blk .match-mod-horizontal-padding, .kp-blk .mod:not(._tN) {
+    .kp-blk .match-mod-horizontal-padding {
         background: #292929;
     }
     tr {
@@ -1827,7 +1818,7 @@
     }
     .kp-blk {
         border: 1px solid #292929;
-        background: #292929;
+        background: #1f1f1f;
     }
     .rhsvw .faJige {
         background: #1f1f1f;
@@ -2466,8 +2457,7 @@
         border: 1px solid #292929;
     }
     .MGqjK {
-        background-color: #292929;
-        border: 1px solid #292929;
+        background-color: #1f1f1f;
     }
     .LMMXP {
         color: #d4d4d4;
@@ -2596,7 +2586,7 @@
         color: #d0d0d0;
     }
     .aXBZVd {
-       filter: invert(1);
+        filter: invert(1);
     }
     .I6TXqe {
         border: 1px solid #292929;
@@ -2692,6 +2682,89 @@
     .YSlUOe {
         background-color: #1f1f1f;
     }
+    .zRQJhd {
+        background-color: #1f1f1f!important;
+    }
+    .MEdqYd, .feqqG {
+        background: #0c0c0c!important;
+        color: #bdbdbd!important;
+        border: 1px solid #0c0c0c!important;
+    }
+    .TIGsTb {
+        border: 1px solid #3c3c3c!important;
+    }
+    .MEdqYd:hover, .feqqG:hover {
+        background: #3c3c3c!important;
+        color: #bdbdbd!important;
+        border: 1px solid #3c3c3c!important;
+    }
+    .MEdqYd:active, .feqqG:active {
+        background: #3c3c3c!important;
+        color: #bdbdbd!important;
+        border: 1px solid #3c3c3c!important;
+    }
+    .MEdqYd:focus, .feqqG:focus {
+        background: #3c3c3c!important;
+        color: #bdbdbd!important;
+        border: 1px solid #3c3c3c!important;
+    }
+    .pno7A.rfUaPd .Tqvz7b, .pno7A.hU1rMc .SwDSDf {
+        color: #4e4e4e!important;
+    }
+    .AOvabd:hover, .dxp44d:hover {
+        color: #ccc!important;
+        background: #171717!important;
+        border-color: #171717!important;
+    }
+    .AOvabd, .dxp44d {
+        background: #3c3c3c!important;
+        color: #ccc!important;
+        border: 1px solid #3c3c3c!important;
+    }
+    .o3AwDf .JaTJ7c {
+        border-top: 1px solid #292929!important;
+    }
+    .Vouh6c {
+        color: #bdbdbd!important;
+    }
+    .JheGif {
+        color: #bdbdbd!important;
+    }
+    .nChh6e {
+        border: 1px solid #3c3c3c!important;
+    }
+    .WF4CUc, .o5GQac img {
+        color: #bdbdbd!important;
+    }
+    .QKLM0d {
+        color: #bdbdbd !important;
+        background: #4c4c4c !important;
+    }
+    .izG2qf {
+        border: 1px solid #4c4c4c!important;
+    }
+    .minidiv .sbibod {
+        border: 1px solid #313131!important;
+        background: #313131!important;
+    }
+    .rl_item_base {
+        background-color: #1f1f1f!important;
+    }
+    .TQc1id .I6TXqe {
+        border: 1px solid #3c3c3c!important;
+    }
+    .d7sCQ {
+        border-bottom: 1px solid #3c3c3c!important;
+    }
+    .minidiv:hover .sbibod:hover {
+        border: 1px solid #313131!important;
+        background: #313131!important;
+    }
+    .minidiv .RNNXgb {
+        background: #333333!important;
+        border: 1px solid #333333!important;
+    }
+    .WF4CUc, .o5GQac img {}
 }
 
 @-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
@@ -2751,13 +2824,7 @@
     a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
         color: #4285f4 !important;
     }
-    .w,
-    #prs a:visited,
-    #prs a:active,
-    .q:active,
-    .q:visited,
-    .kl:active,
-    .tbotu {
+    .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu {
         color: #afafaf !important;
     }
     if (!default_links) {
@@ -2770,13 +2837,10 @@
     }
     if (!default_links) {
         a:visited {
-             color: #ea4335;
+            color: #ea4335;
         }
     }
-    ._Fmb,
-    ._Fmb:hover,
-    ._Fmb.selected,
-    ._Fmb.selected:hover {
+    ._Fmb, ._Fmb:hover, ._Fmb.selected, ._Fmb.selected:hover {
         background-color: #2f2f2f !important;
     }
     .spch {
@@ -3641,7 +3705,7 @@
     ._Z7 .g:last-child, ._rod .g:last-child, ._thf .g:last-child {
         background: #292929;
     }
-    .kp-blk .match-mod-horizontal-padding, .kp-blk .mod:not(._tN) {
+    .kp-blk .match-mod-horizontal-padding {
         background: #292929;
     }
     tr {
@@ -4295,7 +4359,7 @@
         background-color: #1f1f1f;
         border-bottom: 1px solid rgb(41 41 41);
     }
-    .yOo6xe.RSXc9{
+    .yOo6xe.RSXc9 {
         border-top: 1px solid rgb(41 41 41);
     }
     .jyC4xe {
@@ -4430,6 +4494,81 @@
     .jvvww {
         border-bottom: 1px solid #2d2d2d;
     }
+    .JheGif {
+        color: #d6d6d6;
+    }
+    .WF4CUc, .o5GQac img {
+        color: rgb(195 195 195);
+    }
+    .nChh6e {
+        border: 1px solid #313131;
+    }
+    .mDj5wd {
+        color: #e2e2e2;
+    }
+    .TQc1id .I6TXqe {
+        border: 1px solid #333333;
+    }
+    .vIPkDb, .VjDLd .cLjAic:not(:last-child) .mFVw3b {
+        border-bottom: 1px solid #333333 !important;
+    }
+    .wwfboe {
+        border-top: 1px solid #333333;
+    }
+    .IVvPP .vnLNtd.mnr-c {
+        border: 1px solid #333333;
+    }
+    .m7B03 {
+        color: #cecece;
+    }
+    .amyZLb {
+        color: #a2a2a2;
+    }
+    .Ff5uNc {
+        border-top: 1px solid #5f5f5f;
+    }
+    .DArqwd {
+        border-bottom: 1px solid #333333;
+    }
+    .IVvPP .cLjAic, .Hwkikb {
+        border: 1px solid #333333;
+    }
+    .s80L3d {
+        color: #e6e6e6;
+    }
+    .ChlgHf .HnYYW {
+        color: rgb(255 255 255 / 87%);
+    }
+    .dU5Kl {
+        background-color: #333;
+        color: #d0d0d0;
+        border: 1px solid #333333;
+    }
+    .Jb0Zif .lPubzd {
+        border-bottom: 1px solid #333333;
+    }
+    .pcxvjc {
+        background-color: #333333;
+        border-color: #333333;
+    }
+    .WL1JNe {
+        color: #ffffff;
+    }
+    .INGOOb, .WUjVSb, .AupITe, .p2KA1 {
+        color: #e8e8e8;
+    }
+    .O2TtKe {
+        color: rgb(255 255 255);
+    }
+    .HRfe0e {
+        color: #fff;
+    }
+    .nrXPnc, .Co1npd {
+        color: #ffffff8a;
+    }
+    .OYbvNb {
+        color: #cecece;
+    }
 }
 
 @-moz-document url-prefix("https://accounts.google.com") {
@@ -4521,7 +4660,7 @@
         background-color: #3e3e3e;
     }
     .cbphWd {
-        border-top: 1px solid #1f1f1f;
+        border-top: 1px solid #333333;
     }
     .aR1mEe {
         background: #1c1c1c;
@@ -4596,7 +4735,8 @@
     /*Anatoliy.s.spb code --*/
     .IsZvec {
         color: #909090;
-    }.hb8SAc {
+    }
+    .hb8SAc {
         color: #cccccc;
     }
 }
@@ -4814,5 +4954,11 @@
     }
     .XxrEYe {
         color: #8d9398;
+    }
+    .gb_qa svg, .gb_Cc svg, .gb_Zc .gb_7d, .gb_Oc .gb_7d {
+        color: #ffffff;
+    }
+    .gb_Ve {
+        background: #1f1f1f;
     }
 }
