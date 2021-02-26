@@ -1093,7 +1093,8 @@
     .byl .nZ.aS6 {
         background-color: #31363f;
     }
-    .gb_0 {
+    .gb_0,
+    .gb_ja.gb_wg.gb_i {
         background: #232323;
         border: 1px solid #232323;
     }
@@ -1822,7 +1823,7 @@
     .NQ .afM {
         filter: invert(1);
     }
-    
+
     /* Support and updates */
     .hcfe {
         background-color: #232323;
