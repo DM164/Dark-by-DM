@@ -1793,6 +1793,9 @@
     .gb_Ue {
         background: #1f1f1f;
     }
+    .aC2 {
+        background: inherit;
+    }
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/"), url-prefix("https://www.google.com/tools/feedback/") {
