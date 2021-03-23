@@ -1331,9 +1331,6 @@
         opacity: .7;
         color: white;
     }
-    .gb_ue {
-        background-color: #2b2b2b;
-    }
     /*search box*/
     .asor_o {
         filter: invert(100%) !important;
@@ -1547,11 +1544,6 @@
     .gb_Ee.gb_Fe .gb_0e {
         color: #cbcbcb;
     }
-    .gb_0,
-    .gb_ja.gb_wg.gb_i {
-        background: #232323;
-        border: 1px solid #232323;
-    }
     header.gb_na {
         background: #383838;
     }
@@ -1564,11 +1556,20 @@
     .gb_ef:not(.gb_vf) {
         color: #8a8a8a;
     }
+    .gb_Ve {
+        background: #1f1f1f;
+    }
+    .gb_Ve.gb_We {
+        background: rgb(31 31 31);
+    }
+    .a-jn-yd {
+        color: #afafaf;
+    }
+    .gb_Ve.gb_We .gb_gf {
+        color: white;
+    }
     .gb_na:not(.gb_oa) .gb_Qd {
         background: #2b2b2b;
-    }
-    .gb_Ue {
-        background: #3a3a3a;
     }
     .le-Ba {
         background-color: #1F1F1F;
