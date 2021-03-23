@@ -1547,6 +1547,11 @@
     .gb_Ee.gb_Fe .gb_0e {
         color: #cbcbcb;
     }
+    .gb_0,
+    .gb_ja.gb_wg.gb_i {
+        background: #232323;
+        border: 1px solid #232323;
+    }
     header.gb_na {
         background: #383838;
     }
