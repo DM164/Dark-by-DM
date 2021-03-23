@@ -874,7 +874,7 @@
         background-color: #2b2b2b;
         color: #e3e3e3;
     }
-    .yE {
+    .yE, .xL {
         filter: invert(100%);
     }
 
