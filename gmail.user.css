@@ -1057,6 +1057,9 @@
     .nH .ya .x8 {
         color: #54a3e9;
     }
+    .nH .bAR {
+        background-color: inherit;
+    }
     .gb_me.gb_ve .gb_je .gb_if {
         border-color: #232323;
         background: #2d2d2d;
