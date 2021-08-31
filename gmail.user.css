@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.32.2
+@version        5.32.3
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -10,7 +10,7 @@
 @var checkbox highlight_unread 'Stronger Highlight | Unread Messages' 0
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
-    .aic, .aeN .ajl, .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .bkK, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor, .bAw, .if, .UG, .aeN, .qd {
+    .aic, .aeN .ajl, .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .bkK, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe, .bAw, .if, .UG, .aeN {
         background: #1f1f1f !important;
     }
     .V6.CL {
@@ -1057,9 +1057,6 @@
     .nH .ya .x8 {
         color: #54a3e9;
     }
-    .nH .bAR {
-        background-color: inherit;
-    }
     .gb_me.gb_ve .gb_je .gb_if {
         border-color: #232323;
         background: #2d2d2d;
@@ -1637,8 +1634,7 @@
     .ac2 {
         color: #fff;
     }
-    .Wr > .Wn,
-    .qd {
+    .Wr > .Wn {
         color: #c3c3c3;
     }
     .Wo,
@@ -1798,15 +1794,12 @@
     .gb_Ue {
         background: #1f1f1f;
     }
-    .a8i.bii {
-        background-color: #1b1b1b;
-    }
-    .a8i.bii td.bfJ div.bo {
-        filter: invert(1);
-    }
     .aC2 {
         background: inherit;
     }
+    form#aso_search_form_anchor {
+    background: #1f1f1f;
+}
 }
 
 @-moz-document url-prefix("https://mail.google.com/mail/"), url-prefix("https://www.google.com/tools/feedback/") {
