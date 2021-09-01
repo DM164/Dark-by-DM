@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.18.0
+@version        5.19.0
 @description    Dark mode for instagram
-@author         Denis Mignanelli
+@author         DM164
 @homepageURL    https://dark-by-dm-website.now.sh/
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.instagram") {
@@ -117,10 +117,6 @@
         }
         .XajnB {
             background: #1f1f1f;
-        }
-        .g6RW6 {
-            background: #2b2b2b;
-            border-color: #2b2b2b;
         }
         ._0T_XJ::before {
             left: 0;
@@ -871,7 +867,7 @@
         .oYYFH {
             background: #1f1f1f;
         }
-        .N9abW, .nGS-Y, .oNO81, .HcJZg, .uueGX, ._9XapR, .fDdiY, .DPiy6 {
+        .N9abW, .nGS-Y, .oNO81, .HcJZg, .uueGX, ._9XapR, .fDdiY {
             background: #252525;
         }
         .S-mcP {
@@ -1024,6 +1020,19 @@
 }
     .x5TBw {
     border-top: 1px solid #2c2c2c !important;
+}
+    ._6zPK7 {
+    background-color: #2f2f2f !important;
+}
+    .g6RW6, .DPiy6 {
+    background: #343434;
+    }
+    .zyHYP:disabled {
+    background-color: #272727;
+    border-color: #202020;
+}
+    ._6zPK7.PS7Gk {
+    color: #8fa0b5;
 }
     }
 
