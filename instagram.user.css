@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.19.4
+@version        5.19.5
 @description    Dark mode for instagram
 @author         DM164
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -924,6 +924,13 @@
     }
     .L_LMM.ePUX4 .eo2As {
         background: #2e2e2e !important;
+        color: #8fa0b5;
+    }
+    .JyscU .cv3IO, .JyscU .UE9AK {
+        background-color: #1f1f1f;
+    }
+    .cv3IO, .NvNrm, ._97aPb {
+        background-color: #2e2e2e;
     }
     .c0Dmy {
         background-color: #1a1a1a !important;
