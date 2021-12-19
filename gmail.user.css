@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.32.4
+@version        5.33.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
-@homepageURL    https://dark-by-dm-website.now.sh/
+@homepageURL    https://dark-by-dm-website.vercel.app/
 @preprocessor stylus
 
 @var checkbox highlight_unread 'Stronger Highlight | Unread Messages' 0
@@ -1904,6 +1904,9 @@
         border-bottom: .0625rem solid #333;
         color: #dadada;
     }
+    form#aso_search_form_anchor input {
+        color: white !important;
+    }
 }
 @-moz-document url-prefix("https://hangouts.google.com/"),
 url-prefix("https://mail.google.com/mail/") {
@@ -2291,6 +2294,13 @@ url-prefix("https://mail.google.com/mail/") {
     }
     .dBcHLc {
         color: rgb(255 255 255 / 54%);
+    }
+    .la-k .la-m {
+        background: #1f1f1f;
+        top: -166px;
+    }
+    form#aso_search_form_anchor input::placeholder {
+        color: #6a6a6a;
     }
 }
 @-moz-document url-prefix("https://calendar.google") {
