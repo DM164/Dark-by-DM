@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Instagram by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.20.0
+@version        5.21.0
 @description    Dark mode for instagram
 @author         DM164
 @homepageURL    https://dark-by-dm-website.now.sh/
@@ -582,7 +582,7 @@
         border-radius: 16px;
     }
     /*new invert*/
-    .glyphsSpriteLink__outline__24__grey_9, .glyphsSpriteMail__outline__24__grey_9, .glyphsSpriteCircle__outline__24__grey_2, .glyphsSpriteCircle_add__outline__24__grey_5, .glyphsSpriteDirect__outline__96, .glyphsSpriteDownload_2FAC {
+    .glyphsSpriteLink__outline__24__grey_9, .glyphsSpriteMail__outline__24__grey_9, .glyphsSpriteCircle__outline__24__grey_2, .glyphsSpriteCircle_add__outline__24__grey_5, .glyphsSpriteDirect__outline__96, .glyphsSpriteDownload_2FAC, ._8-yf5 {
         filter: invert(100%);
     }
     /*--*/
@@ -667,9 +667,6 @@
     .HYpXt.pbNvD {
         background: #292929;
     }
-    ._8-yf5 {
-        fill: gainsboro;
-    }
     .HcJZg {
         background: #1f1f1f;
     }
@@ -689,9 +686,6 @@
         color: #5094ce !important;
     }
     /* Code submitted by user */
-    ._8-yf5 {
-        fill: white;
-    }
     .Igw0E.IwRSH.eGOV_._4EzTm.MGdpg.aGBdT {
         background: transparent;
     }
@@ -954,6 +948,12 @@
     }
     .feth3 {
         background: #2e2e2e;
+    }
+    .P0xOK, .d_djL, .cTBqC {
+        background: #1f1f1f !important;
+    }
+    .Yk1V7 {
+        color: white;
     }
 }
 
