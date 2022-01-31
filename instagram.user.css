@@ -585,6 +585,10 @@
     .glyphsSpriteLink__outline__24__grey_9, .glyphsSpriteMail__outline__24__grey_9, .glyphsSpriteCircle__outline__24__grey_2, .glyphsSpriteCircle_add__outline__24__grey_5, .glyphsSpriteDirect__outline__96, .glyphsSpriteDownload_2FAC, ._8-yf5 {
         filter: invert(100%);
     }
+    /* keep unlike button red*/
+    ._8-yf5[fill="#ed4956"] {
+        filter: none;
+    }
     /*--*/
     .mOBkM {
         border-color: #2f2f2f;
