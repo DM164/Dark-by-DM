@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by DM
 @namespace      https://github.com/DM164/Dark-by-DM
-@version        5.33.0
+@version        5.34.0
 @description    Dark mode for Gmail
 @author         Denis Mignanelli
 @homepageURL    https://dark-by-dm-website.vercel.app/
@@ -10,8 +10,11 @@
 @var checkbox highlight_unread 'Stronger Highlight | Unread Messages' 0
 ==/UserStyle== */
 @-moz-document url-prefix("https://mail.google.com/mail/") {
-    .aic, .aeN .ajl, .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .bkK, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe, .bAw, .if, .UG, .aeN {
+    .G-atb::before, .aAA.J-KU-Jg-K9, .l2, .aeJ, .iY .Bu, .wR > .amn, .SI .aBz, .iC, .gb_oe.gb_la.gb_pe, #aso_search_form_anchor.gb_Ee.gb_df.gb_Fe, .if, .UG {
         background: #1f1f1f !important;
+    }
+    .aic, .bkK, .at9, .aeN, .aeN .ajl, .bAw, .nH.aUx {
+        background: #0f0f0f !important;
     }
     .V6.CL {
         color: #d8d8d8;
@@ -19,9 +22,13 @@
     .TO .nU > .n0, .TO.NQ .nU > .n0, .TO.nZ .nU > .n0, .ah9 > .CJ, .n3 > .CL > .CK, .a3s, .g6 {
         color: #d6d6d6;
     }
-    .aHS-bnw .qj, .TO > .aHS-bu1 .qj, .aHS-bnu .qj, .aHS-bnq .qj, .aHS-bns .qj, .aHS-bnv .qj, .aHS-aHO .qj, .aHS-aHP .qj, .aHS-bnx .qj, .CL::before, div.TH, .aJZ .qj, div.TH, .air .G-asx, .n4 .G-asx, .J-Ks-KO .J-N-Jo, .asi .J-Ks-KO::before, .asa, .G-Ni .T-Jo, .G-Ni .G-asx, td.apU > .T-KT.aXw::before, .aKD, .zA > td.oZ-x3, .brq, .bru, .brs, .brv, .brr, .G-atb .aqJ .amD, .iG .h0 .adg, .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo, .d-Na-N.d-Na-KO .d-Na-Jo, .d-Na-J3, .J-KU-KO .bvn, .bvn, .acX > .L3.aap, .bi4 > .T-KT, .mL, .mI, .J-JN-M-I-JG, .ams.bkG::before, .ams.bkH::before, .ade {
+    .aHS-bnw .qj, .TO > .aHS-bu1 .qj, .aHS-bnu .qj, .aHS-bnq .qj, .aHS-bns .qj, .aHS-bnv .qj, .aHS-aHO .qj, .aHS-aHP .qj, .aHS-bnx .qj, .CL::before, div.TH, .aJZ .qj, div.TH, .air .G-asx, .n4 .G-asx, .J-Ks-KO .J-N-Jo, .asi .J-Ks-KO::before, .asa, .G-Ni .T-Jo, .G-Ni .G-asx, td.apU > .T-KT.aXw::before, .aKD, .zA > td.oZ-x3, .brq, .bru, .brs, .brv, .brr, .G-atb .aqJ .amD, .iG .h0 .adg, .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo, .d-Na-N.d-Na-KO .d-Na-Jo, .d-Na-J3, .J-KU-KO .bvn, .bvn, .acX > .L3.aap, .bi4 > .T-KT, .mL, .mI, .J-JN-M-I-JG, .ams.bkG::before, .ams.bkH::before, .ade, .aqn .aic .L3::before {
         filter: invert(100%);
     }
+    .gb_oa svg, .gb_Fc svg, .gb_2c .gb_4d, .gb_Rc .gb_4d {
+    color: #ffffff;
+    opacity: 1;
+}
     .wT > .n3 .byl:first-child .aim:first-child .nZ {
         background-color: #2d2d2d;
     }
@@ -29,6 +36,29 @@
         color: #d0d0d0;
         background-color: #1f1f1f;
     }
+    .byl .TK .TO.nZ>.aHS-bnt .n0, .TK .nZ>.aHS-bnt .bsU, .byl .TK .nZ.aS3 .nU>.n0, .TK .nZ.aS3 .bsU, .byl .TK .nZ.aS4 .nU>.n0, .TK .nZ.aS4 .bsU, .byl .TK .nZ.aS5 .nU>.n0, .TK .nZ.aS5 .bsU, .byl .TK .nZ.aS6 .nU>.n0, .TK .nZ.aS6 .bsU, .TK .TO.nZ .nU>.n0, .TK .ol.NQ .nU>.n0, .TK .TO.ol .nU>.n0, .TK .nZ .bsU, .TK .ol .bsU {
+    color: #1595ff;
+}
+
+.nZ>.TN.aHS-bnt .qj, .nZ>.TN.aHS-bnt .qj::before {
+
+    filter: brightness(2.2);
+}
+    .aAv {
+
+    color: #f1f1f1;
+
+}
+.TK .TO.nZ:active, .TK .TO.ol:active, .TK .TO.nZ, .TK .TO.ol, .byl .TK .nZ.aBP, .byl .TK .nZ.aS3, .byl .TK .nZ.aS4, .byl .TK .nZ.aS5, .byl .TK .nZ.aS6, .apV .V6.aJv {
+    background-color: #272727;
+}
+.bkK>.nH {
+    background-color: rgb(31 31 31);
+
+}
+.iY {
+    background: #1f1f1f;
+}
     .aRv {
         color: #fff;
     }
@@ -88,6 +118,11 @@
     .J-Ks-KO .J-N-Jz {
         color: #ffffff;
     }
+    .S4 {
+    background: #1f1f1f;
+}
+
+
     .J-awr {
         color: #d6dde6;
     }
@@ -414,9 +449,7 @@
     .asd {
         color: #99a0a9;
     }
-    .bAw .brC-aT5-aOt-Jw {
-        border-left: 1px solid #232323;
-    }
+
     .yP {
         color: #8e8e8e;
     }
@@ -948,7 +981,7 @@
     }
     /* header */
     .qp {
-        background: #2b2b2b;
+        background: #0f0f0f;
     }
     .gb_vf.gb_Bf .gb_jf {
         filter: invert(100%);
@@ -1931,10 +1964,7 @@ url-prefix("https://mail.google.com/mail/") {
     .aND {
         background: #1f1f1f;
     }
-    .aeN .akc,
-    .oo {
-        background: #1f1f1f;
-    }
+
     body.td .kr {
         color: #d7d7d7;
     }
